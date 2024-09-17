@@ -1,21 +1,23 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15990181&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
+# Dificuldade em otimizar o tempo
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Nosso projeto tem como objetivo desenvolver uma plataforma online para otimizar a gestão do tempo, oferecendo ferramentas de produtividade. A plataforma permitirá aos usuários identificar prioridades, planejar atividades e equilibrar trabalho e vida pessoal, tornando a gestão do tempo mais prática e acessível.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Dalton Henrique
+* Leonardo Araujo Passos
+* Lucas do Amaral Rodrigues
+* Marcos Vinicius Nunes Reis
+* Maria Luiza Manini de Oliveira
+* Vitor de Freitas Rios
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-
-
+* Hayala Nepomuceno Curto
+* Ilo Amy Saldanha Rivero
+* Rommel Vieira Carneiro
+* Walisson Ferreira de Carvalho
 
 ## Instruções de utilização 
 
