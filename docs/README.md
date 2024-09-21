@@ -52,7 +52,7 @@ A plataforma oferecerá uma maneira prática e acessível para os usuários iden
 
 Impacto positivo na produtividade: Ao facilitar o acesso a ferramentas de gestão de tempo, podemos auxiliar os usuários a aumentar sua eficiência, reduzir o estresse e melhorar sua qualidade de vida.
 
-Redução da procrastinação: De acordo com o artigo [A ciência da procrastinação](https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao), a procrastinação já é um problemma que afeta 20% dos adultos no Brasil. Com uma otimização de tempo, é possível reduzir a procrastinação e promover um estilo de vida mais produtivo, saudável e menos estressante.
+Redução da procrastinação: De acordo com o artigo [A Ciência da Procrastinação](https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao), a procrastinação já é um problemma que afeta 20% dos adultos no Brasil. Com uma otimização de tempo, é possível reduzir a procrastinação e promover um estilo de vida mais produtivo, saudável e menos estressante.
 
 
 ## Público-Alvo
@@ -79,7 +79,7 @@ Redução da procrastinação: De acordo com o artigo [A ciência da procrastina
 ![Matriz CSD e Mapa de Stakeholders - Miro](images/matrizStakeholders.jpg)
 
 
-* **Entrevistas Qualitativas e **Highlights de Pesquisa**
+* **Entrevistas Qualitativas e Highlights de Pesquisa**
   
 ![Matriz CSD e Mapa de Stakeholders - Miro](images/entrevistasHighlights.jpg)
 
@@ -87,18 +87,18 @@ Redução da procrastinação: De acordo com o artigo [A ciência da procrastina
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+ **André Albuquerque**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+![Diagrama de Persona - André Albuquerque](images/personaAndre.png)
+
+**Aline Maia**
+
+![Diagrama de Persona - Aline Maia](images/personaAline.png)
+
+**Carlos Mendonça
+
+![Diagrama de Persona - Carlos Mendonça](images/personaCarlos.png)
+
 
 # Product Design
 
@@ -129,11 +129,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+ **André Albuquerque**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+![Proposta de Valor - André Albuquerque](images/propostaAndre.png)
+
+**Aline Maia**
+
+![Proposta de Valor - Aline Maia](images/propostaAline.png)
+
+**Carlos Mendonça
+
+![Proposta de Valor - Carlos Mendonça](images/propostaCarlos.png)
 
 ## Requisitos
 
@@ -157,8 +163,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-012 | Página do cronograma para visualização e reordenação com tarefas organizadas por tempo | MÉDIA     |
 | RF-013 | Página de progresso para exibir gráficos e estatísticas sobre tempo gasto e eficiência | MÉDIA     |
 | RF-014 | Página de configurações para ajustar preferências de notificação e integração com calendários | MÉDIA     |
-| RF-015 | Design responsivo e otimizado para diferentes dispositivos (desktop, tablet, smartphone) com layout dinâmico via CSS
- | MÉDIA     |
+| RF-015 | Design responsivo e otimizado para diferentes dispositivos (desktop, tablet, smartphone) com layout dinâmico via CSS | MÉDIA     |
 | RF-016 | Perfil do usuário com suas informações com opção de edição | MÉDIA     |
 | RF-017 | Criar um pop-up temporário que aparece quando o usuário tenta excluir uma tarefa. | MÉDIA     |
 | RF-018 | Página dedicada ao envio de feedback, com um formulário contendo campos de texto para categorizar o feedback | MÉDIA     |
@@ -173,25 +178,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ------- | ----------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser responsivo para outras interfaces (PC, notebook, móvel)          | MÉDIA      |
+| RNF-002 | Deve ser utilizado as linguagens HTML, CSS e JavaScript                             | BAIXA      |
+| RNF-003 | Interface limpa e fonte de fácil leitura                                            | BAIXA      |
+| RNF-004 | Troca de dados pelo JSON                                                            | BAIXA      |
 
 ## Projeto de Interface
 
@@ -257,10 +248,10 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | [PPLCC-M - G5 - Dificuldade em otimizar o tempo](https://miro.com/app/board/uXjVKn9kuFg=/)        |
-| Repositório de código     | GitHub     | [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo) |
+| Repositório de código       | GitHub     | [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo) |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Comunicação                 | Discord    | [Discord](https://discord.com)                 |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
