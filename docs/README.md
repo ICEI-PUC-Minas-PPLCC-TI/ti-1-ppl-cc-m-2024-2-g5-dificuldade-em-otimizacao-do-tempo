@@ -250,7 +250,9 @@ Página com as informações do perfil do usuário. Permitindo a opção de alte
 
 ### Protótipo Interativo
 
-✅ [Optimus Time - Protótipo Interativo (Figma)](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1)
+✅ [Tempo Otimizado - Figma](https://www.figma.com/design/IEsgUebiFZGQOkeAWqdyTZ/Untitled?node-id=0-1&node-type=canvas&t=ibNazsvTiTDXlugF-0)
+
+❌ [Optimus Time - Protótipo Interativo (Figma)](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1)
 
 # Metodologia
 
