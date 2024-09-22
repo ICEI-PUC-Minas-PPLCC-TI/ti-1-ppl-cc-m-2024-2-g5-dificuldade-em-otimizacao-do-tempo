@@ -44,15 +44,20 @@ Nosso grupo visa criar uma plataforma online voltada para auxiliar os usuários 
 * Facilitar a otimização do tempo:
 Nosso projeto visa criar uma plataforma online que ajuda os usuários a organizar e gerenciar melhor seu tempo, conectando-os a ferramentas e estratégias eficazes de produtividade.
 
-* Promover um estilo de vida melhor:
+* Reduzir as dificuldades no aproveitamento do tempo:
+A plataforma oferecerá uma maneira prática e acessível para os usuários identificarem suas prioridades, planejarem suas atividades e alcançarem um equilíbrio entre trabalho e vida pessoal.
+
+* Promover um estilo de vida mais saudável:
 A plataforma oferecerá uma maneira prática e acessível para os usuários identificarem suas prioridades, planejarem suas atividades e alcançarem um equilíbrio entre trabalho e vida pessoal.
 
 
 ## Justificativa
 
-Impacto positivo na produtividade: Ao facilitar o acesso a ferramentas de gestão de tempo, podemos auxiliar os usuários a aumentar sua eficiência, reduzir o estresse e melhorar sua qualidade de vida.
+* Impacto positivo na produtividade: Ao facilitar o acesso a ferramentas de gestão de tempo, podemos auxiliar os usuários a aumentar sua eficiência, reduzir o estresse e melhorar sua qualidade de vida.
 
-Redução da procrastinação: De acordo com o artigo [A Ciência da Procrastinação](https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao), a procrastinação já é um problemma que afeta 20% dos adultos no Brasil. Com uma otimização de tempo, é possível reduzir a procrastinação e promover um estilo de vida mais produtivo, saudável e menos estressante.
+* Redução da procrastinação: De acordo com o artigo [A Ciência da Procrastinação](https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao), a procrastinação já é um problemma que afeta 20% dos adultos no Brasil. Com uma otimização de tempo, é possível reduzir a procrastinação e promover um estilo de vida mais produtivo, saudável e menos estressante.
+
+* Proximidade: Além disso, todos os integrantes do grupo conseguem se relacionar com a problemática, tendo em vista que todos são estudantes universitários encarregados de diversas atividades e compromissos.
 
 
 ## Público-Alvo
@@ -95,7 +100,7 @@ Redução da procrastinação: De acordo com o artigo [A Ciência da Procrastina
 
 ![Diagrama de Persona - Aline Maia](images/personaAline.png)
 
-**Carlos Mendonça
+**Carlos Mendonça**
 
 ![Diagrama de Persona - Carlos Mendonça](images/personaCarlos.png)
 
@@ -111,23 +116,16 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
 | Estudante e Estagiário   | Gerenciar meu tempo | Equilibrar melhor meus estudos, trabalho e hobbies de jogos eletrônicos.             |
-| Entusiasta de Jogos         | Conectar com outros desenvolvedores      | Compartilhar ideias e projetos |
-|
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| Entusiasta de Jogos         | Uma plataforma para conectar com outros desenvolvedores      | Acelerar o tempo para o compartilhamento de  ideias e projetos |
+| Aspirante a ter um próprio estúdio de jogos        | Acesso a recursos e tutoriais para melhorar a administração do tempo      | Melhorar minhas habilidades e alcançar o sucesso financeiro |
+| Professor universitário       | Uma ferramenta para organizar melhor minha agenda      | Ter mais tempo para me dedicar aos hobbies sem prejudicar minha carreira acadêmica. |
+| Restaurador de carros clássicos         | Organizar meu tempo enquanto pesquiso fornecedores      | Garantir a originalidade e qualidade das minhas restaurações |
+| Amante de veículos antigos         | Oportunidades para melhorar minhas técnicas de administração de tempo      | Contribuir para a execução das minhas tarefas diárias e ter mais tempo para o hobby |
+| Coordenadora escolar         | Menos demandas adjacentes      | Realizar minha função principal no tempo de trabalho |
+| Trabalhadora e mãe         | Definir limites de tarefas diárias      | Evitar trabalho sendo levado para casa |
+| Admiradora de passeios com a família         | Organizar o tempo de forma eficiente      | Produzir no trabalho e aproveitar a vida pessoal junto da família |
 
 ## Proposta de Valor
-
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
-
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
 
  **André Albuquerque**
 
@@ -137,7 +135,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ![Proposta de Valor - Aline Maia](images/propostaAline.png)
 
-**Carlos Mendonça
+**Carlos Mendonça**
 
 ![Proposta de Valor - Carlos Mendonça](images/propostaCarlos.png)
 
@@ -213,19 +211,7 @@ Descrição para a tela XPTO
 
 ### User Flow
 
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
-
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Fluxo do usuário](images/userflow.jpg)
 
 ### Protótipo Interativo
 
@@ -251,7 +237,9 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Repositório de código       | GitHub     | [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo) |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
 | Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-| Comunicação                 | Discord    | [Discord](https://discord.com)                 |
+| Comunicação e reunião       | Discord    | [G5_Dificuldade em otimizar o tempo](https://discord.gg/Ypeg22h) |
+| Listas e anotações          | DontPad    | [G5_PUC_MINAS](https://dontpad.com/G5_PUC_MINAS) |
+| Documentação inicial        | Google Docs | [Documentação do projeto-G5 - Dificuldade em otimizar o tempo](https://docs.google.com/document/d/18eASascdgc_7Ht1f3midlBq0KonecbZeWuI7gYk3MbQ/) |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -283,15 +271,10 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 ## Vídeo do Projeto
 
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. 
+⚠️ ATENÇÃO: O link abaixo é um placeholder, o vídeo não está disponível no momento! ⚠️
 
 [![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
->
-> Inclua um link para o vídeo do projeto.
 
 ## Funcionalidades
 
