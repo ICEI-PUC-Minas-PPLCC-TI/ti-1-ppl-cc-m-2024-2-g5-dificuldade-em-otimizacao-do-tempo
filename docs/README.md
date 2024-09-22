@@ -2,11 +2,11 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [Link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo)
+* **Projeto:** Optimus Time
+* **Repositório GitHub:** [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo)
 * **Membros da equipe:**
 
-  * [Dalton Henrique](https://github.com/fulano)
+  * Dalton Henrique
   * [Leonardo Araújo Passos](https://github.com/LeoPassos98)
   * [Lucas do Amaral Rodrigues](https://github.com/LAR97)
   * [Marcos Vinícius Nunes Reis](https://github.com/marcosware)
@@ -27,9 +27,11 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Muitas pessoas enfrentam dificuldades para otimizar o tempo devido à sobrecarga de tarefas, falta de planejamento e distrações. Isso pode causar atrasos na rotina e uma sensação de improdutividade, sendo essencial o uso de métodos para gerenciar e otimizar o tempo, priorizar atividades e alcançar um equilíbrio entre o trabalho e o lazer.
+Você provavelmente já sentiu que estava afogado de afazeres alguma vez na vida, não é? E com os dispositivos eletrônicos, redes sociais e seus emergentes vídeos curtos, a falta de instruções e uma rotina pesada faz com que você não seja o único sofrendo disso.
 
-Nosso grupo visa criar uma plataforma online voltada para auxiliar os usuários a otimizar seu tempo, conectando-os a ferramentas e estratégias para melhorar sua produtividade. Reconhecemos que muitas pessoas enfrentam dificuldades para gerenciar suas tarefas diárias de maneira eficiente, o que pode aumentar o estresse e reduzir a qualidade de vida.
+Muitas pessoas enfrentam dificuldades para otimizar o tempo devido à sobrecarga de tarefas, falta de planejamento e distrações. E nos últimos tempos, isso vem ficando cada vez mais difícil com o quão fácil os dispositivos eletrônicos estão facilmente em nosso alcance, permitindo que nos distraímos. Isso pode causar atrasos na rotina e uma sensação de improdutividade, sendo essencial o uso de métodos para gerenciar e otimizar o tempo, priorizar atividades e alcançar um equilíbrio entre o trabalho e o lazer.
+
+Sabendo que quase [62% dos jovens não fazem a gestão de seu próprio tempo](https://valor.globo.com/carreira/noticia/2024/09/21/mais-da-metade-dos-jovens-nao-faz-gestao-do-proprio-tempo-diz-pesquisa.ghtml), de acordo com a ONG JA Brasil, o nosso grupo visa criar uma plataforma online voltada para auxiliar os usuários a otimizar seu tempo, conectando-os a ferramentas e estratégias para melhorar sua produtividade a fim de reduzir essa porcentagem.
 
 
 ## Problema
@@ -48,7 +50,7 @@ Nosso projeto visa criar uma plataforma online que ajuda os usuários a organiza
 A plataforma oferecerá uma maneira prática e acessível para os usuários identificarem suas prioridades, planejarem suas atividades e alcançarem um equilíbrio entre trabalho e vida pessoal.
 
 * Promover um estilo de vida mais saudável:
-A plataforma oferecerá uma maneira prática e acessível para os usuários identificarem suas prioridades, planejarem suas atividades e alcançarem um equilíbrio entre trabalho e vida pessoal.
+Com uma boa gestão de tempo, se reduz a procrastinação, garantindo uma rotina mais ativa e produtiva. Dessa forma, evita-se o estresse, o esgotamento e mantém o aproveitamento do tempo para hobbies e outros interesses.
 
 
 ## Justificativa
@@ -62,18 +64,22 @@ A plataforma oferecerá uma maneira prática e acessível para os usuários iden
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Embora a dificuldade para a otimizar o tempo possa ser um problema que a maioria das pessoas podem enfrentar, o nosso público-alvo acaba se encaixando pelas faixas etárias de jovem-adulto ou adulto (20-50 anos) e que possuem uma rotina cheia e pesada, especialmente aqueles que frequentam espaços escolares, como estudantes, estagiários, professores, coordenadores e outros profissionais.
+Muitos deles, possuem acesso à tecnologia, que pode ser um instrumento de trabalho ou também uma das próprias causas do problema. Levando em consideração as diferenças na rotina e na família.
+Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Stakeholders:
+
+* Fundamentais: Profissionais e estudantes que precisam organizar suas rotinas.
+* Importantes: Indivíduos que buscam melhorar a produtividade.
+* Influenciadores: Empresas, educadores, pesquisadores, além de pais e amigos, que apoiam a gestão do tempo.
+
+Personas:
+
+| André Albuquerque               | Aline Maia                                 | Carlos Mendonça                        |
+| ------------------------------- | ------------------------------------------ | -------------------------------------- |
+| André, um desenvolvedor de software de 19 anos, está lutando para equilibrar seu trabalho e  estudos com sua paixão por jogos  eletrônicos e eSports. Ele busca uma maneira de organizar melhor seu tempo para poder se dedicar aos jogos sem comprometer sua carreira. | Aline, coordenadora de 43 anos, está sobrecarregada com suas responsabilidades profissionais, o que está causando estresse e afetando sua produtividade e vida pessoal. Ela deseja melhorar sua organização para equilibrar suas tarefas profissionais e tempo para relaxar e aproveitar seus hobbies. | Carlos, um professor de 30 anos, enfrenta dificuldades para encontrar tempo para seu hobby de restaurar carros clássicos devido às crescentes responsabilidades no trabalho. Ele quer gerenciar melhor sua agenda para poder se dedicar mais à restauração dos carros sem prejudicar sua carreira.            |
+
 
 # Product Discovery
 
@@ -83,10 +89,10 @@ A plataforma oferecerá uma maneira prática e acessível para os usuários iden
 
 ![Matriz CSD e Mapa de Stakeholders - Miro](images/matrizStakeholders.jpg)
 
-
 * **Entrevistas Qualitativas e Highlights de Pesquisa**
   
 ![Matriz CSD e Mapa de Stakeholders - Miro](images/entrevistasHighlights.jpg)
+
 
 ## Etapa de Definição
 
@@ -149,38 +155,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ------ | ---------------------------------------------------------- | ---------- |
 | RF-001 | Cadastro e login com e-mail, senha ou redes sociais | ALTA       |
 | RF-002 | Gerenciar conclusão, nome, data e prioridade das tarefas | ALTA     |
-| RF-003 | Mostrar tarefas no dashboard e cronograma | MÉDIA     |
-| RF-004 | Sugerir otimizações no cronograma com base nas prioridades | MÉDIA     |
-| RF-005 | Gerar relatórios e gráficos sobre tempo gasto e progresso | MÉDIA     |
+| RF-003 | Mostrar tarefas no dashboard e cronograma | ALTA     |
+| RF-004 | Sugerir otimizações no cronograma com base nas prioridades | ALTA     |
+| RF-005 | Gerar relatórios e gráficos sobre tempo gasto e progresso | ALTA     |
 | RF-006 | Alterar preferências do usuário, como notificações e tema | MÉDIA     |
 | RF-007 | Enviar lembretes com notificações com diferenças de cores a partir da prioridade sobre o início das tarefas | MÉDIA     |
-| RF-008 | Exibir o propósito do app e um slogan no topo | MÉDIA     |
-| RF-009 | Formulário simples de cadastro com validação de campos | MÉDIA     |
+| RF-008 | Exibir o propósito do app e um slogan no topo | BAIXA     |
+| RF-009 | Formulário simples de cadastro com validação de campos | ALTA     |
 | RF-010 | Dashboard com lista de tarefas, botão de nova tarefa e barra de navegação. | MÉDIA     |
-| RF-011 | Formulário para criar nova tarefa com campos de nome, data/hora, prioridade | MÉDIA     |
+| RF-011 | Formulário para criar nova tarefa com campos de nome, data/hora, prioridade | ALTA     |
 | RF-012 | Página do cronograma para visualização e reordenação com tarefas organizadas por tempo | MÉDIA     |
 | RF-013 | Página de progresso para exibir gráficos e estatísticas sobre tempo gasto e eficiência | MÉDIA     |
 | RF-014 | Página de configurações para ajustar preferências de notificação e integração com calendários | MÉDIA     |
 | RF-015 | Design responsivo e otimizado para diferentes dispositivos (desktop, tablet, smartphone) com layout dinâmico via CSS | MÉDIA     |
 | RF-016 | Perfil do usuário com suas informações com opção de edição | MÉDIA     |
-| RF-017 | Criar um pop-up temporário que aparece quando o usuário tenta excluir uma tarefa. | MÉDIA     |
-| RF-018 | Página dedicada ao envio de feedback, com um formulário contendo campos de texto para categorizar o feedback | MÉDIA     |
+| RF-017 | Criar um pop-up temporário que aparece quando o usuário tenta excluir uma tarefa. | BAIXA     |
+| RF-018 | Página dedicada ao envio de feedback, com um formulário contendo campos de texto para categorizar o feedback | BAIXA     |
 | RF-019 | Implementar um campo de busca que permite ao usuário filtrar as tarefas por horário | MÉDIA     |
-| RF-020 | Exibir um cronômetro de contagem regressiva para tarefas com prazo de conclusão | MÉDIA     |
-| RF-021 | Implementar um temporizador que permite ao usuário usar a técnica Pomodoro | MÉDIA     |
-| RF-022 | Implementar notificações automáticas via browser que aparecem quando uma tarefa está prestes a começar | MÉDIA     |
+| RF-020 | Exibir um cronômetro de contagem regressiva para tarefas com prazo de conclusão | BAIXA     |
+| RF-021 | Implementar um temporizador que permite ao usuário usar a técnica Pomodoro | BAIXA     |
+| RF-022 | Implementar notificações automáticas via browser que aparecem quando uma tarefa está prestes a começar | BAIXA     |
 | RF-023 | Permitir que o usuário marque uma tarefa como "recorrente" (diária, semanal, mensal) e que ela seja automaticamente replicada no cronograma | MÉDIA     |
-| RF-024 | Ícone para mostrar o email de contato para suporte caso ocorra algum bug | MÉDIA     |
+| RF-024 | Ícone para mostrar o email de contato para suporte caso ocorra algum bug | BAIXA     |
 
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ----------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para outras interfaces (PC, notebook, móvel)          | MÉDIA      |
-| RNF-002 | Deve ser utilizado as linguagens HTML, CSS e JavaScript                             | BAIXA      |
-| RNF-003 | Interface limpa e fonte de fácil leitura                                            | BAIXA      |
-| RNF-004 | Troca de dados pelo JSON                                                            | BAIXA      |
+| RNF-001 | O sistema deve ser responsivo para outras interfaces (PC, notebook, móvel)          | ALTA       |
+| RNF-002 | Deve ser utilizado as linguagens HTML, CSS e JavaScript                             | ALTA       |
+| RNF-003 | Interface limpa e fonte de fácil leitura                                            | MÉDIA      |
+| RNF-004 | Troca de dados pelo JSON                                                            | MÉDIA      |
+| RNF-005 | Seguir a LGPD enquanto estiver tratando os dados do usuário                         | ALTA      |
 
 ## Projeto de Interface
 
@@ -190,24 +197,52 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+**Página Inicial**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+![Wireframe - Página inicial](images/wireframePaginaInicial.png)
 
-Descrição para a tela XPTO
+Página inicial da plataforma, onde o usuário poderá ler sobre o projeto e acessar a página de acesso à conta.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+**Página de Login e Registro**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+![Wireframe - Página de login e registro](images/wireframeLogin.png)
+
+Página que permite o usuário entrar na sua conta ou se registrar caso não possua uma conta.
+Possui um formulário simples para inserir os dados.
+
+**Dashboard**
+
+![Wireframe - Dashboard](images/wireframeDashboard.png)
+
+Página principal após login, que exibe as tarefas a serem concluídas, junto da opção de criar ou deletar tarefas.
+Além disso, pode visualizar um calendário com as tarefas e uma breve preview da página de Análise.
+
+**Cronograma**
+
+![Wireframe - Cronograma](images/wireframeCronograma.png)
+
+Página que exibe o cronograma de hora em hora dos dias da semana atual.
+Possui uma legenda de cor por nível de prioridade das tarefas e um botão de atalho para a criação de tarefas,
+página de sugestões e para inserir o horário em que o usuário dorme.
+
+**Análise**
+
+![Wireframe - Análises e relatórios](images/wireframeAnalise.png)
+
+Exibe diversos gráficos e informações conforme a produtividade e o tempo gasto do usuário com as tarefas.
+
+**Sugestões**
+
+![Wireframe - Sugestões e dicas](images/wireframeSugestoes.png)
+
+Página com listas de sugestões e dicas para o usuário com a opção de selecionar o tema.
+Possui também um quadro de horários e dias mais vagos.
+
+**Perfil**
+
+![Wireframe - Perfil do usuário](images/wireframePerfil.png)
+
+Página com as informações do perfil do usuário. Permitindo a opção de alterá-las ou deletar a conta.
 
 ### User Flow
 
@@ -215,13 +250,7 @@ Descrição para a tela XPTO
 
 ### Protótipo Interativo
 
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+✅ [Optimus Time - Protótipo Interativo (Figma)](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1)
 
 # Metodologia
 
@@ -235,149 +264,39 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | [PPLCC-M - G5 - Dificuldade em otimizar o tempo](https://miro.com/app/board/uXjVKn9kuFg=/)        |
 | Repositório de código       | GitHub     | [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo) |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Protótipo Interativo        | Figma      | [Optimus Time](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1) |
 | Comunicação e reunião       | Discord    | [G5_Dificuldade em otimizar o tempo](https://discord.gg/Ypeg22h) |
 | Listas e anotações          | DontPad    | [G5_PUC_MINAS](https://dontpad.com/G5_PUC_MINAS) |
 | Documentação inicial        | Google Docs | [Documentação do projeto-G5 - Dificuldade em otimizar o tempo](https://docs.google.com/document/d/18eASascdgc_7Ht1f3midlBq0KonecbZeWuI7gYk3MbQ/) |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
+1) Miro - Utilizado para o Design Thinking, aproveitando do modelo já disponibilizado para nós. Possui uma diversidade de opções e permite a colaboração com a equipe e assim se tornando uma ótima opção
+
+2) GitHub - O repositório Git mais conhecido e utilizado. Ótimo para a colaboração e versionamento dos projetos, podendo acompanhar o progresso e rapidamente encontrar erros.
+
+3) Figma - Plataforma que não só auxilia na montagem do protótipo da interface, também nos traz opções de atribuir interatividade nos elementos da página. Assim, idealizar a função dos botões da página se torna rápido e prático.
+
+4) Discord - Aplicativo de fácil acesso para mensagens de textos e de voz, permitindo que os membros da equipe se conecte para reuniões e a troca de ideias.
+
+5) DontPad - Um bloco de notas que pode ser editado e enviado para os outros rapidamente. Por não precisar de login, as anotações são passadas rapidamente entre os integrantes do grupo.
+
+6) Google Docs - Antes da documentação ser passada ao GitHub em formato Markdown, a documentação estava inicialmente sendo feita no Google Docs, que permite o compartilhamento e a edição entre o grupo, além de haver diversas opções para a formatação do texto.
 
 ## Gerenciamento do Projeto
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 
-![Exemplo de Kanban](images/exemplo-kanban.png)
+![Kanban](images/Kanban.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
->
-> **Orientações**:
->
-> - [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-> - [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-> - [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+![Planejamento das Sprints](images/planejamentoSprints.png)
 
-# Solução Implementada
-
-Esta seção apresenta todos os detalhes da solução criada no projeto.
-
-## Vídeo do Projeto
-
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. 
-⚠️ ATENÇÃO: O link abaixo é um placeholder, o vídeo não está disponível no momento! ⚠️
-
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-
-## Funcionalidades
-
-Esta seção apresenta as funcionalidades da solução.Info
-
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
-
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
-* **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
-* **Tela da funcionalidade**:
-
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
-
-## Estruturas de Dados
-
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
-
-##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
-
-Contatos da aplicação
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
-
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema
-
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
-```
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
-
-## Módulos e APIs
-
-Esta seção apresenta os módulos e APIs utilizados na solução
-
-**Images**:
-
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
-
-**Fonts:**
-
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
-
-**Scripts:**
-
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
+![Notas e próximos passos](images/notas.png)
 
 # Referências
 
 As referências utilizadas no trabalho foram:
 
-* SOBRENOME, Nome do autor. Título da obra. 8. ed. Cidade: Editora, 2000. 287 p ⚠️ EXEMPLO ⚠️
+* DE SANTI, Alexandre. A ciência da procrastinação. **Superinteressante**, 19 de out. de 2022. Disponível em:
+<https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao>
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
->
-> **Orientações**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+* ZAMPOLLI, Rafaela. Mais da metade dos jovens não faz gestão do próprio tempo, diz pesquisa. **Valor Econômico**, São Paulo, 21 de set. de 2024. Disponível em:
+<https://valor.globo.com/carreira/noticia/2024/09/21/mais-da-metade-dos-jovens-nao-faz-gestao-do-proprio-tempo-diz-pesquisa.ghtml>
