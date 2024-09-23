@@ -6,7 +6,7 @@ Informações básicas do projeto.
 * **Repositório GitHub:** [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo)
 * **Membros da equipe:**
 
-  * Dalton Henrique
+  * [Dalton Henrique](https://github.com/DALTONHG)
   * [Leonardo Araújo Passos](https://github.com/LeoPassos98)
   * [Lucas do Amaral Rodrigues](https://github.com/LAR97)
   * [Marcos Vinícius Nunes Reis](https://github.com/marcosware)
