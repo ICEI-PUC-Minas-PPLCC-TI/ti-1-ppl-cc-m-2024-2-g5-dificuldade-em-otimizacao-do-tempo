@@ -168,11 +168,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | *4. Tela de Dashboard*               | - Visualizar as tarefas do dia/semana.<br>- Interagir com tarefas urgentes.<br>- Usar atalhos para criar tarefas, acessar estatísticas e desempenho.                  |
 | *5. Tela de Criação de Tarefas*      | - Completar o formulário (nome, data/hora, prioridade, etc.).<br>- Salvar e adicionar a tarefa ao cronograma.                                                         |
 | *6. Tela de Cronograma Diário/Semanal*| - Visualizar tarefas no cronograma.<br>- Reorganizar tarefas arrastando-as.<br>- Adicionar novas tarefas diretamente no cronograma.                                   |
-| *7. Popup de Sugestões de Otimização*| - Ler as sugestões.<br>- Aceitar ou ignorar as sugestões.                                                                                                             |
-| *8. Tela de Análise de Progresso*    | - Visualizar gráficos e relatórios sobre o progresso.<br>- Navegar entre estatísticas diárias, semanais e mensais.                                                    |
-| *9. Tela de Suporte/Feedback*        | - Preencher e enviar o formulário de feedback/suporte.<br>- Aguardar a confirmação de recebimento.                                                                   |
-| *10. Tela de Perfil do Usuário*      | - Visualizar informações de perfil.<br>- Editar informações do perfil.<br>- Ajustar preferências de notificação e alternar tema claro/escuro.                         |
-| *11. Tela de Sugestão*               | - Visualizar as quatro categorias de sugestões.<br>- Interagir e aplicar as dicas fornecidas.                                                                         |
+| *7. Tela de Análise de Progresso*    | - Visualizar gráficos e relatórios sobre o progresso.<br>- Navegar entre estatísticas diárias, semanais e mensais.                                                    |
+| *8. Tela de Suporte/Feedback*        | - Preencher e enviar o formulário de feedback/suporte.<br>- Aguardar a confirmação de recebimento.                                                                   |
+| *9. Tela de Perfil do Usuário*      | - Visualizar informações de perfil.<br>- Editar informações do perfil.<br>- Ajustar preferências de notificação e alternar tema claro/escuro.                         |
+| *10. Tela de Sugestão*               | - Visualizar as quatro categorias de sugestões.<br>- Interagir e aplicar as dicas fornecidas.                                                                         |
 
 ## Projeto de Interface
 
