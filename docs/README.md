@@ -7,7 +7,7 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * [Dalton Henrique](https://github.com/DALTONHG)
-  * [Marcos Vinícius Nunes Reis](https://github.com/marcosware)
+  * [Lucas do Amaral Rodrigues](https://github.com/LAR97)
   * [Vitor de Freitas Rios](https://github.com/Vitorfrios)
 
 A documentação do projeto é estruturada da seguinte forma:
