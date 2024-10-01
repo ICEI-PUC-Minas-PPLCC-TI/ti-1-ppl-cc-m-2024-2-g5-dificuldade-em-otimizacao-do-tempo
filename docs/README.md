@@ -7,10 +7,7 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * [Dalton Henrique](https://github.com/DALTONHG)
-  * [Leonardo Araújo Passos](https://github.com/LeoPassos98)
-  * [Lucas do Amaral Rodrigues](https://github.com/LAR97)
   * [Marcos Vinícius Nunes Reis](https://github.com/marcosware)
-  * [Maria Luíza Manini de Oliveira](https://github.com/malumanini)
   * [Vitor de Freitas Rios](https://github.com/Vitorfrios)
 
 A documentação do projeto é estruturada da seguinte forma:
@@ -21,17 +18,13 @@ A documentação do projeto é estruturada da seguinte forma:
 4. Product Design
 5. Metodologia
 6. Solução
-7. Referências Bibliográficas
 
 ✅ [Documentação de Design Thinking (MIRO)](files/processo-dt-G5.pdf)
 
 # Contexto
 
-Você provavelmente já sentiu que estava afogado de afazeres alguma vez na vida, não é? E com os dispositivos eletrônicos, redes sociais e seus emergentes vídeos curtos, a falta de instruções e uma rotina pesada faz com que você não seja o único sofrendo disso.
-
 Muitas pessoas enfrentam dificuldades para otimizar o tempo devido à sobrecarga de tarefas, falta de planejamento e distrações. E nos últimos tempos, isso vem ficando cada vez mais difícil com o quão fácil os dispositivos eletrônicos estão facilmente em nosso alcance, permitindo que nos distraímos. Isso pode causar atrasos na rotina e uma sensação de improdutividade, sendo essencial o uso de métodos para gerenciar e otimizar o tempo, priorizar atividades e alcançar um equilíbrio entre o trabalho e o lazer.
 
-Sabendo que quase [62% dos jovens não fazem a gestão de seu próprio tempo](https://valor.globo.com/carreira/noticia/2024/09/21/mais-da-metade-dos-jovens-nao-faz-gestao-do-proprio-tempo-diz-pesquisa.ghtml), de acordo com a ONG JA Brasil, o nosso grupo visa criar uma plataforma online voltada para auxiliar os usuários a otimizar seu tempo, conectando-os a ferramentas e estratégias para melhorar sua produtividade a fim de reduzir essa porcentagem.
 
 
 ## Problema
@@ -149,45 +142,37 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
+## Requisitos Funcionais e Não Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Cadastro e login com e-mail, senha ou redes sociais | ALTA       |
-| RF-002 | Gerenciar conclusão, nome, data e prioridade das tarefas | ALTA     |
-| RF-003 | Mostrar tarefas no dashboard e cronograma | ALTA     |
-| RF-004 | Sugerir otimizações no cronograma com base nas prioridades | ALTA     |
-| RF-005 | Gerar relatórios e gráficos sobre tempo gasto e progresso | ALTA     |
-| RF-006 | Alterar preferências do usuário, como notificações e tema | MÉDIA     |
-| RF-007 | Enviar lembretes com notificações com diferenças de cores a partir da prioridade sobre o início das tarefas | MÉDIA     |
-| RF-008 | Exibir o propósito do app e um slogan no topo | BAIXA     |
-| RF-009 | Formulário simples de cadastro com validação de campos | ALTA     |
-| RF-010 | Dashboard com lista de tarefas, botão de nova tarefa e barra de navegação. | MÉDIA     |
-| RF-011 | Formulário para criar nova tarefa com campos de nome, data/hora, prioridade | ALTA     |
-| RF-012 | Página do cronograma para visualização e reordenação com tarefas organizadas por tempo | MÉDIA     |
-| RF-013 | Página de progresso para exibir gráficos e estatísticas sobre tempo gasto e eficiência | MÉDIA     |
-| RF-014 | Página de configurações para ajustar preferências de notificação e integração com calendários | MÉDIA     |
-| RF-015 | Design responsivo e otimizado para diferentes dispositivos (desktop, tablet, smartphone) com layout dinâmico via CSS | MÉDIA     |
-| RF-016 | Perfil do usuário com suas informações com opção de edição | MÉDIA     |
-| RF-017 | Criar um pop-up temporário que aparece quando o usuário tenta excluir uma tarefa. | BAIXA     |
-| RF-018 | Página dedicada ao envio de feedback, com um formulário contendo campos de texto para categorizar o feedback | BAIXA     |
-| RF-019 | Implementar um campo de busca que permite ao usuário filtrar as tarefas por horário | MÉDIA     |
-| RF-020 | Exibir um cronômetro de contagem regressiva para tarefas com prazo de conclusão | BAIXA     |
-| RF-021 | Implementar um temporizador que permite ao usuário usar a técnica Pomodoro | BAIXA     |
-| RF-022 | Implementar notificações automáticas via browser que aparecem quando uma tarefa está prestes a começar | BAIXA     |
-| RF-023 | Permitir que o usuário marque uma tarefa como "recorrente" (diária, semanal, mensal) e que ela seja automaticamente replicada no cronograma | MÉDIA     |
-| RF-024 | Ícone para mostrar o email de contato para suporte caso ocorra algum bug | BAIXA     |
+| *Tela*                               | *Requisitos Funcionais (RF)*                                                                                                                                           | *Requisitos Não Funcionais (RNF)*                                                                                                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *1. Tela de Abertura*                | - Exibir o logotipo com animação.<br>- Exibir botão para avançar à tela de cadastro/login ou redirecionar automaticamente após a animação.                                | - Animação com tempo de 2-3 segundos.<br>- Design responsivo.<br>- Transições suaves entre telas.                                                                                                                 |
+| *2. Tela de Cadastro/Login*          | - Login com e-mail e senha.<br>- Opção de cadastro para novos usuários.<br>- Links para recuperação de senha e alternar entre cadastro/login.<br>- Login com Google.      | - Segurança dos dados (senhas criptografadas).<br>- Resposta do sistema em < 2 segundos.<br>- Design acessível e legível.                                                                                         |
+| *3. Tela de Onboarding*              | - Exibir slides sobre o aplicativo.<br>- Navegar entre slides com botões.<br>- Opção de pular o onboarding.<br>- Registrar se o usuário completou o onboarding.           | - Processo de onboarding em 2-3 minutos.<br>- Textos e gráficos simples e claros.<br>- Compatível com dispositivos móveis e desktops.                                                                             |
+| *4. Tela de Dashboard*               | - Exibir tarefas do dia/semana.<br>- Destaque para tarefas urgentes.<br>- Atalhos para “Criar Tarefa”, “Estatísticas” e “Desempenho”.<br>- Atualização em tempo real.      | - Carregamento rápido das tarefas.<br>- Design responsivo.<br>- Suportar grande quantidade de tarefas sem perda de desempenho.                                                                                     |
+| *5. Tela de Criação de Tarefas*      | - Formulário para criar/editar tarefas.<br>- Campos obrigatórios: nome, data/hora, prioridade, categoria e notificação.<br>- Salvar tarefa e adicionar ao cronograma.      | - Validação dos campos em tempo real.<br>- Design intuitivo e responsivo.<br>- Salvamento em < 1 segundo.                                                                                                         |
+| *6. Tela de Cronograma Diário/Semanal*| - Exibir tarefas organizadas no cronograma.<br>- Permitir arrastar e reorganizar tarefas.<br>- Botão para adicionar nova tarefa.                                           | - Transição rápida e sem travamentos.<br>- Layout responsivo.<br>- Reorganização de tarefas salva imediatamente.                                                                                                   |
+| *7. Popup de Sugestões de Otimização*| - Exibir sugestões para otimizar o tempo.<br>- Dicas sobre horários vagos, descanso, estudo.<br>- Permitir aceitar ou ignorar sugestões.                                  | - Popup discreto e não intrusivo.<br>- Design simples e de fácil compreensão.<br>- Sugestões baseadas em análise automática precisa.                                                                               |
+| *8. Tela de Análise de Progresso*    | - Exibir gráficos e relatórios sobre tarefas concluídas e tempo por categoria.<br>- Estatísticas diárias, semanais e mensais.                                             | - Gráficos rápidos e interativos.<br>- Layout responsivo.<br>- Informações claras e visualmente atrativas.                                                                                                        |
+| *9. Tela de Suporte/Feedback*        | - Formulário para feedback e suporte.<br>- Campos obrigatórios: descrição e categoria.<br>- Envio do formulário e confirmação de recebimento.                              | - Resposta para envio do formulário em < 2 segundos.<br>- Design simples e acessível.<br>- Feedback registrado de forma segura e confidencial.                                                                    |
+| *10. Tela de Perfil do Usuário*      | - Exibir informações de perfil.<br>- Permitir edição de informações.<br>- Opções para ajustes de notificação e tema (claro/escuro).                                        | - Alterações salvas em tempo real.<br>- Design responsivo.<br>- Garantia de proteção de dados pessoais com autenticação para mudanças sensíveis.                                                                  |
+| *11. Tela de Sugestão*               | - Exibir quatro tipos de sugestões:<br>  1. Ajuda com horários.<br>  2. Dicas para estudo.<br>  3. Descansar/dormir.<br>  4. Dicas para bom desempenho.                   | - Sugestões claras e interativas.<br>- Análise rápida e baseada em dados reais.<br>- Layout compatível com dispositivos móveis e desktops, oferecendo uma experiência fluida.                                       |
 
+## Ações do Usuário
 
-### Requisitos não Funcionais
-
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ----------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para outras interfaces (PC, notebook, móvel)          | ALTA       |
-| RNF-002 | Deve ser utilizado as linguagens HTML, CSS e JavaScript                             | ALTA       |
-| RNF-003 | Interface limpa e fonte de fácil leitura                                            | MÉDIA      |
-| RNF-004 | Troca de dados pelo JSON                                                            | MÉDIA      |
-| RNF-005 | Seguir a LGPD enquanto estiver tratando os dados do usuário                         | ALTA      |
+| *Tela*                               | *Ações do Usuário*                                                                                                                                                   |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *1. Tela de Abertura*                | - Observar a animação do logotipo.<br>- Clicar no botão para prosseguir, caso não redirecionado automaticamente.                                                      |
+| *2. Tela de Cadastro/Login*          | - Inserir e-mail e senha para login.<br>- Clicar na opção de cadastro.<br>- Alternar entre login e cadastro.<br>- Utilizar a opção de login com Google.                |
+| *3. Tela de Onboarding*              | - Navegar entre os slides.<br>- Pular o onboarding, se desejado.<br>- Receber informações sobre o aplicativo.                                                         |
+| *4. Tela de Dashboard*               | - Visualizar as tarefas do dia/semana.<br>- Interagir com tarefas urgentes.<br>- Usar atalhos para criar tarefas, acessar estatísticas e desempenho.                  |
+| *5. Tela de Criação de Tarefas*      | - Completar o formulário (nome, data/hora, prioridade, etc.).<br>- Salvar e adicionar a tarefa ao cronograma.                                                         |
+| *6. Tela de Cronograma Diário/Semanal*| - Visualizar tarefas no cronograma.<br>- Reorganizar tarefas arrastando-as.<br>- Adicionar novas tarefas diretamente no cronograma.                                   |
+| *7. Popup de Sugestões de Otimização*| - Ler as sugestões.<br>- Aceitar ou ignorar as sugestões.                                                                                                             |
+| *8. Tela de Análise de Progresso*    | - Visualizar gráficos e relatórios sobre o progresso.<br>- Navegar entre estatísticas diárias, semanais e mensais.                                                    |
+| *9. Tela de Suporte/Feedback*        | - Preencher e enviar o formulário de feedback/suporte.<br>- Aguardar a confirmação de recebimento.                                                                   |
+| *10. Tela de Perfil do Usuário*      | - Visualizar informações de perfil.<br>- Editar informações do perfil.<br>- Ajustar preferências de notificação e alternar tema claro/escuro.                         |
+| *11. Tela de Sugestão*               | - Visualizar as quatro categorias de sugestões.<br>- Interagir e aplicar as dicas fornecidas.                                                                         |
 
 ## Projeto de Interface
 
@@ -249,14 +234,15 @@ Página com as informações do perfil do usuário. Permitindo a opção de alte
 ![Fluxo do usuário](images/userflow.jpg)
 
 ### Protótipo Interativo
+Desenvolvemos wireframes para o layout da plataforma, chamada *“Tempo Otimizado”*, durante reuniões do grupo, com foco em gestão eficiente de tarefas e otimização do cronograma.
 
 ✅ [Tempo Otimizado - Figma](https://www.figma.com/design/IEsgUebiFZGQOkeAWqdyTZ/Untitled?node-id=0-1&node-type=canvas&t=ibNazsvTiTDXlugF-0)
 
-❌ [Optimus Time - Protótipo Interativo (Figma)](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1)
+
 
 # Metodologia
 
-Detalhes sobre a organização do grupo e o ferramental empregado.
+O desenvolvimento do projeto seguiu a metodologia SCRUM. Realizamos encontros semanais e utilizamos um grupo no WhatsApp para comunicação. Reuniões online foram realizadas para revisar o progresso e definir novas tarefas. A divisão de tarefas foi organizada utilizando a metodologia Kanban.
 
 ## Ferramentas
 
@@ -293,12 +279,11 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 
 ![Notas e próximos passos](images/notas.png)
 
-# Referências
 
-As referências utilizadas no trabalho foram:
+## Links
 
-* DE SANTI, Alexandre. A ciência da procrastinação. **Superinteressante**, 19 de out. de 2022. Disponível em:
-<https://super.abril.com.br/comportamento/a-ciencia-da-procrastinacao>
+- *Miro*: [Miro Board](https://miro.com/app/board/uXjVKn9kuFg=/)
+- *Figma*: [Protótipo no Figma](https://www.figma.com/design/IEsgUebiFZGQOkeAWqdyTZ/Tempo-otimizado?node-id=0-1&node-type=canvas&t=I7xRj2ulRa4trN3M-0)
+- *Canva*: [Apresentação no Canva](https://www.canva.com/design/DAGQcupPwlQ/dfEuhXloz-nZyA6wFmDoVQ/edit)
+- *Documentação do Projeto*: [Documentação no DOCS](https://docs.google.com/document/d/1Q8gyPVwmVyhmgnTF2TCXz3vqIcY56G-rgm00SgYForM/edit).
 
-* ZAMPOLLI, Rafaela. Mais da metade dos jovens não faz gestão do próprio tempo, diz pesquisa. **Valor Econômico**, São Paulo, 21 de set. de 2024. Disponível em:
-<https://valor.globo.com/carreira/noticia/2024/09/21/mais-da-metade-dos-jovens-nao-faz-gestao-do-proprio-tempo-diz-pesquisa.ghtml>
