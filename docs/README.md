@@ -252,10 +252,10 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | [PPLCC-M - G5 - Dificuldade em otimizar o tempo](https://miro.com/app/board/uXjVKn9kuFg=/)        |
 | Repositório de código       | GitHub     | [ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo) |
-| Protótipo Interativo        | Figma      | [Optimus Time](https://www.figma.com/proto/1sAB5LkR2KcbURoTHtTuOS/Optimus-Time?node-id=4368-321106&node-type=frame&t=TubGKx3PbLodYBNa-1&scaling=scale-down&content-scaling=fixed&page-id=1669%3A162202&starting-point-node-id=4368%3A321106&show-proto-sidebar=1) |
-| Comunicação e reunião       | Discord    | [G5_Dificuldade em otimizar o tempo](https://discord.gg/Ypeg22h) |
-| Listas e anotações          | DontPad    | [G5_PUC_MINAS](https://dontpad.com/G5_PUC_MINAS) |
-| Documentação inicial        | Google Docs | [Documentação do projeto-G5 - Dificuldade em otimizar o tempo](https://docs.google.com/document/d/18eASascdgc_7Ht1f3midlBq0KonecbZeWuI7gYk3MbQ/) |
+| Protótipo Interativo        | Figma      | [Tempo otimizado](https://www.figma.com/design/IEsgUebiFZGQOkeAWqdyTZ/Tempo-otimizado?node-id=0-1&node-type=canvas&t=I7xRj2ulRa4trN3M-0) |
+| Documentação inicial        | Google Docs | [Documentação do projeto-G5 - Dificuldade em otimizar o tempo](https://docs.google.com/document/d/1Q8gyPVwmVyhmgnTF2TCXz3vqIcY56G-rgm00SgYForM/edit) |
+| Comunicação e reunião       | Discord    |  |
+| Listas e anotações          | DontPad    |  |
 
 1) Miro - Utilizado para o Design Thinking, aproveitando do modelo já disponibilizado para nós. Possui uma diversidade de opções e permite a colaboração com a equipe e assim se tornando uma ótima opção
 
@@ -278,12 +278,4 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 ![Planejamento das Sprints](images/planejamentoSprint.png)
 
 ![Notas e próximos passos](images/notas.png)
-
-
-## Links
-
-- *Miro*: [Miro Board](https://miro.com/app/board/uXjVKn9kuFg=/)
-- *Figma*: [Protótipo no Figma](https://www.figma.com/design/IEsgUebiFZGQOkeAWqdyTZ/Tempo-otimizado?node-id=0-1&node-type=canvas&t=I7xRj2ulRa4trN3M-0)
-- *Canva*: [Apresentação no Canva](https://www.canva.com/design/DAGQcupPwlQ/dfEuhXloz-nZyA6wFmDoVQ/edit)
-- *Documentação do Projeto*: [Documentação no DOCS](https://docs.google.com/document/d/1Q8gyPVwmVyhmgnTF2TCXz3vqIcY56G-rgm00SgYForM/edit).
 
