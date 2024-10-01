@@ -6,10 +6,7 @@ Nosso projeto tem como objetivo desenvolver uma plataforma online para otimizar 
 ## Alunos integrantes da equipe
 
 * Dalton Henrique
-* Leonardo Araujo Passos
 * Lucas do Amaral Rodrigues
-* Marcos Vinicius Nunes Reis
-* Maria Luiza Manini de Oliveira
 * Vitor de Freitas Rios
 
 ## Professores responsáveis
