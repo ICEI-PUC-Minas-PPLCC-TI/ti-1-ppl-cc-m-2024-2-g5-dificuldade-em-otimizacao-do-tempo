@@ -45,7 +45,6 @@ body {
 
 .sidebar ul li.active a{
     color: #0cc0df;
-    background-color: #1a1a1a; /* Cor de fundo da aba ativa, opcional */
 
 }
 
