@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ---------------------- SIDEBAR ---------------------- //
 
-//Marcar a aba ativa na sidebar
+// Marcar a aba ativa na sidebar
 document.addEventListener("DOMContentLoaded", function() {
     function highlightActiveItem() {
         const currentPage = window.location.pathname.split("/").pop(); // Pega o nome do arquivo da URL
@@ -18,26 +18,27 @@ document.addEventListener("DOMContentLoaded", function() {
         items.forEach(item => {
             item.classList.remove('active');
         });
-
-        if (currentPage === 'deashboard.html') {
+        if (currentPage === '04_Dashboard.html') {
             document.getElementById('dashboard').classList.add('active');
-        } else if (currentPage === 'tarefas.html') {
-            document.getElementById('tarefas').classList.add('active');
-        } else if (currentPage === 'cronograma.html') {
+        } else if (currentPage === '05_Cronograma_Diario.html') {
             document.getElementById('cronograma').classList.add('active');
-        } else if (currentPage === 'progresso.html') {
+        } else if (currentPage === '06_Criacao_Tarefas.html') {
+            document.getElementById('tarefas').classList.add('active');
+        } else if (currentPage === '07_Progresso.html') {
             document.getElementById('progresso').classList.add('active');
-        } else if (currentPage === 'perfil.html') {
+        } else if (currentPage === '09_Perfil.html') {
             document.getElementById('perfil').classList.add('active');
-        } else if (currentPage === 'feedback.html') {
+        } else if (currentPage === '10_Suporte_Feedback.html') {
             document.getElementById('feedback').classList.add('active');
-        } else if (currentPage === 'sugestao.html') {
+        } else if (currentPage === '08_Sugestao.html') {
             document.getElementById('sugestao').classList.add('active');
         }
     }
 
+
     highlightActiveItem();
 });
+
 
 
 
@@ -78,7 +79,7 @@ function createTaskRow(task) {
 // Função para carregar tarefas do JSON e atualizar o cronograma
 async function loadTasks(dayOfWeek) {
     try {
-        const response = await fetch('../db.json');
+        const response = await fetch('/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo-master/codigo/db/db.json');
         if (!response.ok) throw new Error(`Erro ao carregar tarefas: status ${response.status}`);
 
         const data = await response.json();
