@@ -1,1 +1,33 @@
 
+// ---------------------- SIDEBAR ---------------------- //
+
+// Marcar a aba ativa na sidebar
+document.addEventListener("DOMContentLoaded", function() {
+    function highlightActiveItem() {
+        const currentPage = window.location.pathname.split("/").pop(); 
+
+        const items = document.querySelectorAll('.sidebar ul li');
+        items.forEach(item => {
+            item.classList.remove('active');
+        });
+
+        if (currentPage === 'deashboard.html') {
+            document.getElementById('dashboard').classList.add('active');
+        } else if (currentPage === 'tarefas.html') {
+            document.getElementById('tarefas').classList.add('active');
+        } else if (currentPage === 'cronograma.html') {
+            document.getElementById('cronograma').classList.add('active');
+        } else if (currentPage === 'progresso.html') {
+            document.getElementById('progresso').classList.add('active');
+        } else if (currentPage === 'perfil.html') {
+            document.getElementById('perfil').classList.add('active');
+        } else if (currentPage === 'feedback.html') {
+            document.getElementById('feedback').classList.add('active');
+        } else if (currentPage === 'sugestao.html') {
+            document.getElementById('sugestao').classList.add('active');
+        }
+    }
+
+    highlightActiveItem();
+});
+
