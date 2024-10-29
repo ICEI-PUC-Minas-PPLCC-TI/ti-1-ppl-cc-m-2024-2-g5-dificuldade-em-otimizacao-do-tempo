@@ -1,4 +1,4 @@
-
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #E8F0F2;
@@ -9,9 +9,7 @@ body {
     align-content: center;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: block;
 }
-
 
 /* Sidebar */
 .sidebar {
@@ -22,7 +20,7 @@ body {
     position: fixed;
     left: 0;
     padding-top: 10px;
-    border-radius: 30px;
+    border-radius: 30px; 
     margin-left: 10px;
 }
 
@@ -44,8 +42,10 @@ body {
     padding: 0.3em 1px; 
 }
 
-.sidebar ul li.active {
+.sidebar ul li.active a{
     color: #0cc0df;
+    background-color: #1a1a1a; /* Cor de fundo da aba ativa, opcional */
+
 }
 
 .sidebar ul li {
