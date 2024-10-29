@@ -1,4 +1,4 @@
-//   npx json-server --watch db.json --port 3000
+//   npx json-server --watch /codigo/db/db.json --port 3000
 
 // Configuração inicial dos botões de prioridade e carregamento do gráfico e tarefas
 document.addEventListener('DOMContentLoaded', () => {
