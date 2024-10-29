@@ -79,7 +79,7 @@ function createTaskRow(task) {
 // Função para carregar tarefas do JSON e atualizar o cronograma
 async function loadTasks(dayOfWeek) {
     try {
-        const response = await fetch('/ti-1-ppl-cc-m-2024-2-g5-dificuldade-em-otimizacao-do-tempo-master/codigo/db/db.json');
+        const response = await fetch('/codigo/db/db.json');
         if (!response.ok) throw new Error(`Erro ao carregar tarefas: status ${response.status}`);
 
         const data = await response.json();
