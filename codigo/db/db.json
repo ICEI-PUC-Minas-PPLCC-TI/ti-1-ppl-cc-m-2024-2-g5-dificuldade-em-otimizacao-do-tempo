@@ -253,6 +253,28 @@
         "num": 5,  
         "text": ""  
       }  
-    ]
-  }
+    ],  
+    "tela4": [  
+      {  
+        "num": 1,  
+        "text": "Organize Suas Tarefas - Cronograma: Divida tarefas grandes em etapas menores. - Gerenciamento: Use ferramentas para monitorar prazos."  
+      },  
+      {  
+        "num": 2,  
+        "text": "Mantenha o Foco - Priorize: Concentre-se no mais importante e urgente. - Produtividade: Use Pomodoro para aumentar o foco."  
+      },  
+      {  
+        "num": 3,  
+        "text": "Desenvolva Habilidades de Comunicação - Comunicação Clara: Expresse-se de forma eficaz e escute ativamente."  
+      },  
+      {  
+        "num": 4,  
+        "text": "Invista no Desenvolvimento Pessoal - Aprendizado Contínuo: Atualize-se com cursos e novas habilidades."  
+      },  
+      {  
+        "num": 5,  
+        "text": "Cuide do Seu Bem-Estar - Gerencie o Estresse: Use exercícios e meditação para relaxar. - Durma Bem: Durma o suficiente para manter a clareza mental."  
+      }  
+    ]  
+  }  
 }
