@@ -231,6 +231,28 @@
         "num": 5,  
         "text": "Revise e Reforce o Conhecimento - Revisão Regular: Releia e reforce o que aprendeu periodicamente. - Ensine: Explicar o conteúdo solidifica o conhecimento."  
       }  
+    ],  
+    "tela3": [  
+      {  
+        "num": 1,  
+        "text": "Rotina de Sono Consistente - Horários Regulares: Mantenha horários fixos para dormir. - Ritual Relaxante: Crie uma rotina calma antes de dormir."  
+      },  
+      {  
+        "num": 2,  
+        "text": "Otimize Seu Ambiente de Sono - Ambiente Escuro e Silencioso: Minimize distrações no quarto. - Temperatura: Mantenha o quarto entre 15-20°C."  
+      },  
+      {  
+        "num": 3,  
+        "text": "Gerencie o Estresse e a Ansiedade - Relaxamento: Meditação e respiração ajudam a relaxar. - Evite Estimulantes: Reduza cafeína e alimentos pesados à noite."  
+      },  
+      {  
+        "num": 4,  
+        "text": "Desconecte-se de Dispositivos - Evite Telas: Reduza o uso de eletrônicos antes de dormir."  
+      },  
+      {  
+        "num": 5,  
+        "text": ""  
+      }  
     ]
   }
 }
