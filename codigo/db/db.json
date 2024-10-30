@@ -23,6 +23,7 @@
     }
   ],
 
+
   "tarefas": {
     "listaDeTarefas": [
       {
@@ -168,6 +169,8 @@
         "estimatedDuration": 60
       }
     ],
+
+
     "adicionarTarefas": [
       {
         "name": "0d9urdh9",
@@ -183,10 +186,14 @@
         "estimatedDuration": 15
       }
     ],
+
+
     "grafico": {
       "Trabalho": 15
     }
   }, 
+
+
   "telas": {  
     "tela1": [  
       {  
@@ -210,6 +217,7 @@
         "text": "texto5"  
       }  
     ],
+    
     "tela2": [  
       {  
         "num": 1,  
@@ -231,7 +239,8 @@
         "num": 5,  
         "text": "Revise e Reforce o Conhecimento - Revisão Regular: Releia e reforce o que aprendeu periodicamente. - Ensine: Explicar o conteúdo solidifica o conhecimento."  
       }  
-    ],  
+    ], 
+
     "tela3": [  
       {  
         "num": 1,  
@@ -250,6 +259,7 @@
         "text": "Desconecte-se de Dispositivos - Evite Telas: Reduza o uso de eletrônicos antes de dormir."  
       }
     ],  
+
     "tela4": [  
       {  
         "num": 1,  
@@ -270,7 +280,10 @@
       {  
         "num": 5,  
         "text": "Cuide do Seu Bem-Estar - Gerencie o Estresse: Use exercícios e meditação para relaxar. - Durma Bem: Durma o suficiente para manter a clareza mental."  
-      }  
+      } 
+
     ]  
+
   }  
+
 }
