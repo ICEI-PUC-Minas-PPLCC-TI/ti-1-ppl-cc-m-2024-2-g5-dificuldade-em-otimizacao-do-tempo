@@ -209,7 +209,28 @@
         "num": 5,  
         "text": "texto5"  
       }  
+    ],
+    "tela2": [  
+      {  
+        "num": 1,  
+        "text": "Planeje e Organize Seu Tempo - Cronograma: Organize seus estudos com um plano semanal. - Metas Diárias: Defina objetivos claros para cada sessão de estudo."  
+      },  
+      {  
+        "num": 2,  
+        "text": "Use Técnicas de Estudo Ativas - Resumos e Anotações: Resuma os principais pontos para facilitar a revisão. - Pratique com Questões: Resolva exercícios para reforçar o aprendizado."  
+      },  
+      {  
+        "num": 3,  
+        "text": "Ambiente de Estudo Adequado - Espaço Quieto: Escolha um lugar tranquilo e organizado. - Materiais à Mão: Tenha tudo que precisa ao seu alcance."  
+      },  
+      {  
+        "num": 4,  
+        "text": "Faça Pausas Regulares - Técnica Pomodoro: Estude 25 min, pause 5 min, e repita. - Relaxamento: Use pausas para descansar com atividades leves."  
+      },  
+      {  
+        "num": 5,  
+        "text": "Revise e Reforce o Conhecimento - Revisão Regular: Releia e reforce o que aprendeu periodicamente. - Ensine: Explicar o conteúdo solidifica o conhecimento."  
+      }  
     ]
-
   }
 }
