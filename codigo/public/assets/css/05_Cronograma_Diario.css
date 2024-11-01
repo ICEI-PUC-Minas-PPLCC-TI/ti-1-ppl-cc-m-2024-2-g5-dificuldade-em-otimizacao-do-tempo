@@ -18,6 +18,8 @@ body {
 }
 
 /* Sidebar */
+
+/* Sidebar */
 .sidebar {
     width: 275px;
     background-color: #000;
@@ -50,7 +52,7 @@ body {
 
 .sidebar ul li.active a{
     color: #03d9ff;
-    padding-left: 2.4px; 
+    padding-left: 2px; 
 
 }
 
