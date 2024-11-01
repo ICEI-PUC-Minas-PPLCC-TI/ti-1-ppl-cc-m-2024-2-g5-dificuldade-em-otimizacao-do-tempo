@@ -1,4 +1,10 @@
-// ---------------------- SIDEBAR ---------------------- //
+
+/*
+COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
+npx json-server --watch codigo/db/db.json --port 3000
+*/
+
+// ------------------- SIDE BAR CODIGO ------------------- //
 
 // Marcar a aba ativa na sidebar
 document.addEventListener("DOMContentLoaded", function() {
@@ -29,3 +35,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
     highlightActiveItem();
 });
+
+// ------------------- FIM DA SIDE BAR ------------------- //

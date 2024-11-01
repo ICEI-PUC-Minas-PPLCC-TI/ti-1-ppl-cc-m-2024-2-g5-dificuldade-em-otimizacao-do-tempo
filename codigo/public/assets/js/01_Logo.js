@@ -1,3 +1,9 @@
+
+/*
+COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
+npx json-server --watch codigo/db/db.json --port 3000
+*/
+
 const hourHand = document.querySelector('.hour-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const secondHand = document.querySelector('.second-hand');

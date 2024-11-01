@@ -1,8 +1,15 @@
+
+/*
+COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
+npx json-server --watch codigo/db/db.json --port 3000
+*/
+
+
 // Página inicial de Login
 const LOGIN_URL = "./public/pages/02_Login.html";
 
 // URL do servidor para o db.json
-const SERVER_URL = 'http://localhost:3000/usuarios'; // ajuste se necessário
+const SERVER_URL = 'http://localhost:3000/usuarios'; 
 
 // Objeto para o banco de dados de usuários baseado em JSON
 var db_usuarios = {};
