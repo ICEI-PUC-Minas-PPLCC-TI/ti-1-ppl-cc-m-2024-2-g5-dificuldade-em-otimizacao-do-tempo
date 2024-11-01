@@ -1,3 +1,8 @@
+/*
+COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
+npx json-server --watch codigo/db/db.json --port 3000
+*/
+
 /* Body */
 body {
     font-family: Arial, sans-serif;
@@ -43,7 +48,8 @@ body {
 }
 
 .sidebar ul li.active a{
-    color: #0cc0df;
+    color: #03d9ff;
+    padding-left: 15px; 
 
 }
 
