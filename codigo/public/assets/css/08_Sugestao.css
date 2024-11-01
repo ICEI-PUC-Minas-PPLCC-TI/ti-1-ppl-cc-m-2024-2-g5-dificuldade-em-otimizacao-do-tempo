@@ -1,3 +1,8 @@
+/*
+COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
+npx json-server --watch codigo/db/db.json --port 3000
+*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #E8F0F2;
@@ -31,36 +36,74 @@ body {
     font-size: 30px;
 }
 
-.sidebar ul {
+.sidebar .ul {
     list-style-type: none;
     padding: 0;
 }
 
-.sidebar ul li a {
+.sidebar .ul li a {
     color: #fff; 
     text-decoration: none; 
     display: block;
     padding: 0.3em 1px; 
 }
 
-.sidebar ul li.active a{
+.sidebar .ul li.active a{
     color: #0cc0df;
+    padding-left: 5px; 
 
 }
 
-.sidebar ul li {
+.sidebar .ul li {
     padding: 0.5em 1em; 
     font-size: 1.41rem; 
 }
 
-.sidebar ul li i {
+.sidebar .ul li i {
     margin-right: 10px;
 }
 
-.sidebar ul li:hover {
+.sidebar .ul li:hover {
     background-color: #333;
     cursor: pointer;
 }
+
+/* Estilos dos sub-itens */
+.sidebar .sub-itens {
+    font-size: 18px; 
+    margin-top: 15px; 
+    list-style-type: none; 
+    padding-left: 1px;
+
+}
+
+.sub-itens li {
+    margin-bottom: 20px; 
+}
+
+
+/* Estilos para os links */
+.sub-itens li a {
+    color: #ddd; 
+    text-decoration: none;
+    display: block;
+    padding: 0.2em 0; /*tamanho dos itens*/
+}
+
+/* Efeito hover para os sub-itens */
+.sub-itens li:hover {
+    background-color: #333; 
+    cursor: pointer;
+}
+
+/* Ativação dos itens e alteração de cor */
+.sidebar .ul li.active a{
+    color: #03d9ff;
+    padding-left: 10px; 
+
+}
+
+
 
 /* Main Content */
 .main-content {
