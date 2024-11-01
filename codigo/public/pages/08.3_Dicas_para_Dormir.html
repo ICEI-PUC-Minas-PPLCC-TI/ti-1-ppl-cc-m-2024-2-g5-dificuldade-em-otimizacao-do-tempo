@@ -41,10 +41,28 @@ npx json-server --watch codigo/db/db.json --port 3000
     
 
     <div class="main-content">
-        <div class="header">qerberb</div>
-
-
-
+        <div class="header">
+            <h1>Sugestão</h1>
+        </div>
+        <div class="top-desemepenho">
+            <span>Dicas para Dormir</span>
+        </div>
+            <div class="roleta">
+                <h1>Clique para girar a roleta</h1>
+                <div id="roleta-g">  
+                    <div class="numero num1">1</div>  
+                    <div class="numero num2">2</div>  
+                    <div class="numero num3">3</div>  
+                    <div class="numero num4">4</div>  
+                    <div class="numero num5">5</div>  
+                    <div class="seta"></div> <!-- Seta adicionada -->  
+                </div>  
+                <button id="girar">Girar a Roleta</button>  
+            </div>
+        <div class="mostrar-dicas">
+            <h1><span id="num-sorteado"></span></h1>
+            <div id="resultado"></div>  
+        </div>
     </div>
 
     <div class="right-content">
@@ -56,7 +74,32 @@ npx json-server --watch codigo/db/db.json --port 3000
                 width="40" />
             </a>
         </div>
+        <div class="dicas">
+            <h2>Desempenho do sono</h2>
+            <div class="compromisso">
+                <span>Hora do compromisso</span>
+                <input placeholder="Hora do compromisso" type="time" class="borda"/>
+            </div>
 
+            <div class="deitar">
+                <span>Hora de deitar</span>
+                <input placeholder="Hora de deitar" type="time" class="borda"/>
+            </div>
+
+            <div class="botoes" style="display: flexbox; justify-content: space-between;">
+                <button style="font-size: 18px;" class="botao1">Enviar dados</button>
+                <button style="font-size: 18px;" class="botao2">Limpar dados</button>
+            </div>
+
+            <div class="acordar">
+                <span>Hora de acordar</span>
+                <span class="borda-H"><!--lugar onde o script irá colocar a hora de acordar--></span>
+            </div>
+            <div class="sono">
+                <span>Tempo de Sono</span>
+                <span class="borda-H"><!--lugar onde o script irá colocar o tempo de sono--></span>
+            </div>
+        </div>
     </div>
     <script src="../assets/js/08.3_Dicas_para_Dormir.js"></script>
 
