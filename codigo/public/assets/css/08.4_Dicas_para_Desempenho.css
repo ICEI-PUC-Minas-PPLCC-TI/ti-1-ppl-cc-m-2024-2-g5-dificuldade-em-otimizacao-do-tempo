@@ -115,20 +115,88 @@ body {
     margin-right: 25px;
     padding: 10px;
     flex: 1;
-    height:180px; 
-    overflow:block;
+    height: 180px; 
+    overflow: block;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:30px;
+    height: 30px;
+    margin-bottom: 20px;
 }
 
+.top-desemepenho span {
+    width: 90%; 
+    padding: 8px; 
+    margin: 10px auto; 
+    border: 2px solid #00a4cc; 
+    border-radius: 30px; 
+    font-size: 30px;
+    text-align: center;
+    display: block; 
+    background-color: #00a4cc;
+}
 
+.roleta, button {
+    background-color: #B0C4DE;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 20px auto; 
+    width: 95%; 
+    text-align: center;
+}
 
+button {
+    background-color: #00a4cc;
+    cursor: pointer;
+}
 
+.roleta #roleta-g {  
+    width: 300px;  
+    height: 300px;  
+    border-radius: 50%;  
+    position: relative;  
+    margin: 20px auto;  
+    border: 5px solid #333;  
+    background: conic-gradient(  
+        #3f51b5 0deg 72deg,  
+        #2196f3 72deg 144deg,  
+        #03a9f4 144deg 216deg,  
+        #00bcd4 216deg 288deg,  
+        #b2ebf2 288deg 360deg  
+    );
+    transition: transform 4s cubic-bezier(0.3, 0.1, 0.4, 0.9);  
+}
+
+.numero {  
+    position: absolute;  
+    width: 50%;  
+    height: 50%;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    font-size: 2em;  
+    color: #333;  
+    font-weight: bold;  
+}  
+
+.num1 { transform: rotate(36deg); top: 0; left: 40%; height: 7em; transform-origin: 0 100%; }  
+.num2 { transform: rotate(108deg); top: 0; left: 33%; height: 5em; transform-origin: 0 100%; }  
+.num3 { transform: rotate(180deg); top: 0; left: 40%; height: 3.6em; transform-origin: 0 100%; }  
+.num4 { transform: rotate(252deg); top: 0; left: 55%; height: 3.4em; transform-origin: 0 100%; }  
+.num5 { transform: rotate(324deg); top: 0; left: 70%; height: 5.6em; transform-origin: 0 100%; }  
+
+#resultado {  
+    margin-top: 20px;  
+    font-size: 1.2em;  
+}  
+
+/* Right Content */
 .right-content {
     display: flex;
     flex-direction: column;
@@ -140,7 +208,8 @@ body {
     display: flex;
     align-items: center;
     border: 2px solid #00A4CC; 
-    border-radius: 30px; /* Bordas arredondadas */
+    border-radius: 30px; 
+    margin-bottom: 10px;
 }
 
 .right-content .name, .right-content .profile img {
@@ -163,6 +232,27 @@ body {
     color: inherit; 
 }
 
+/* Dicas */
+.dicas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 5px; 
+}
+
+.dicas h2 {
+    font-size: 30px;
+}
+
+.borda {
+    border: 1px solid #00A4CC;
+    padding: 20px;
+    border-radius: 30px;
+    width: 150px; 
+    text-align: center; 
+    margin: 10px 0;
+    font-size: 30px;
+}
 
 
 

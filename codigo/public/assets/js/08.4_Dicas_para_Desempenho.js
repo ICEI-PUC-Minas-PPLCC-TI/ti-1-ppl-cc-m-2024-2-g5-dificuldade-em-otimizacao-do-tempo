@@ -49,3 +49,50 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // ------------------- FIM DA SIDE BAR ------------------- //
+
+
+{// ------------- Codigo para a roleta ------------- //
+    let data;  
+
+    async function carregarDados() {  
+        const response = await fetch('/codigo/db/db.json');  
+        data = await response.json();  
+    }  
+
+    carregarDados(); 
+
+    document.getElementById("girar").addEventListener("click", function() {  
+        if (!data) {  
+            alert("Os dados ainda estão sendo carregados. Tente novamente mais tarde.");  
+            return;  
+        }  
+
+        const randomNum = Math.floor(Math.random() * 5) + 1;   
+        const roleta = document.getElementById("roleta-g");  
+
+        const rotacao = randomNum * 72 + 1720; 
+        roleta.style.transform = `rotate(${rotacao}deg)`; 
+
+        setTimeout(() => {  
+            roleta.style.transform = "rotate(0deg)";  
+            mostrarResultado(randomNum);  
+        }, 3000);   
+    });  
+
+    function mostrarResultado(num) {  
+        const resultadoDiv = document.getElementById("resultado");  
+        const itemCorrespondente = data.telas.tela4.find(item => item.num === num);  
+
+        const titulo = itemCorrespondente.titulo || `Número ${num}`;
+
+        document.getElementById("num-sorteado").innerText = titulo;  
+
+        resultadoDiv.innerHTML = ''; 
+        for (let i = 1; i <= 5; i++) {
+            const texto = itemCorrespondente[`text${i}`];
+            if (texto) {
+                resultadoDiv.innerHTML += `<li>${texto}</li>`; 
+            }
+        }
+    }
+}

@@ -39,23 +39,54 @@ npx json-server --watch codigo/db/db.json --port 3000
         </ul>
     </div>
     
+    <!--Meio-->
 
     <div class="main-content">
-        <div class="header">qebf</div>
-
-
-
+        <div class="header">
+            <h1>Sugestão</h1>
+        </div>
+        <div class="top-desemepenho">
+            <span>Dicas para ter um bom desempenho</span>
+        </div>
+            <div class="roleta">
+                <h1>Clique para girar a roleta</h1>
+                <div id="roleta-g">  
+                    <div class="numero num1">1</div>  
+                    <div class="numero num2">2</div>  
+                    <div class="numero num3">3</div>  
+                    <div class="numero num4">4</div>  
+                    <div class="numero num5">5</div>  
+                    <div class="seta"></div> <!-- Seta adicionada -->  
+                </div>  
+                <button id="girar">Girar a Roleta</button>  
+            </div>
+        <div class="mostrar-dicas">
+            <h1>Mostrar Dicas <span id="num-sorteado"></span></h1>
+            <div id="resultado"></div>  
+        </div>
     </div>
+
+
+    <!--Direita-->
 
     <div class="right-content">
         <div class="profile">
-            <a href="./09_Perfil.html">
+            <a href="../pages/09_Perfil.html">
                 <span class="name">Nome de perfil </span>
                 <img alt="Profile Picture" height="40"
                 src="https://storage.googleapis.com/a1aa/image/NUmI0MfMz42fpENwyavwQqU3J22dTVo3W9l6l6JgS0EbB3iTA.jpg"
                 width="40" />
             </a>
         </div>
+        <div class="dicas">
+                <h2>Desempenho</h2>
+                <span class="borda">Trabalho</span>
+                <span>||</span>
+                <span class="borda">Lazer</span>
+                <span>||</span>
+                <span class="borda">Estudo</span>
+        </div>
+    </div>
 
     </div>
     <script src="../assets/js/08.4_Dicas_para_Desempenho.js"></script>
