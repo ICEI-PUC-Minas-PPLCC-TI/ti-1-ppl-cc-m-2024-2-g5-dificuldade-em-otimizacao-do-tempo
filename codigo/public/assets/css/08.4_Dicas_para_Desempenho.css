@@ -83,21 +83,18 @@ body {
 }
 
 
-/* Estilos para os links */
 .sub-itens li a {
     color: #ffffff; 
     text-decoration: none;
     display: block;
-    padding: 0.2em 0; /*tamanho dos itens*/
+    padding: 0.2em 0; 
 }
 
-/* Efeito hover para os sub-itens */
 .sub-itens li:hover {
     background-color: #333; 
     cursor: pointer;
 }
 
-/* Ativação dos itens e alteração de cor */
 .sidebar .sub-itens li.active a {
     color: #0cc0df; 
     padding-left: 10px; 
@@ -119,7 +116,7 @@ body {
     overflow: block;
     display: flex;
     flex-direction: column; 
-    gap: 10px; 
+    gap: 1px; 
 }
 
 .header {
@@ -127,7 +124,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .top-desemepenho span {
@@ -152,6 +149,7 @@ body {
 }
 
 button {
+    font-size: 15px;
     background-color: #00a4cc;
     cursor: pointer;
 }
@@ -191,10 +189,29 @@ button {
 .num4 { transform: rotate(252deg); top: 0; left: 55%; height: 3.4em; transform-origin: 0 100%; }  
 .num5 { transform: rotate(324deg); top: 0; left: 70%; height: 5.6em; transform-origin: 0 100%; }  
 
-#resultado {  
-    margin-top: 20px;  
-    font-size: 1.2em;  
-}  
+
+.mostrar-dicas{
+    box-sizing: border-box;
+}
+
+#num-sorteado{
+    text-align:center;
+    display: block; 
+    margin-top: 5px;
+}
+#resultado {
+    width: 100%; 
+    padding-left: 50px;
+    margin: 10px auto; 
+    font-size: 18px;
+    text-align: justify;
+    display: none; 
+        
+}
+
+
+
+
 
 /* Right Content */
 .right-content {
