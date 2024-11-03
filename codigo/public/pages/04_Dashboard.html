@@ -91,7 +91,7 @@ npx json-server --watch codigo/db/db.json --port 3000
                     <div class="legend-item" style="background-color: #4BC0C0;"></div> Lazer
                 </h3>
                 <div id="chartContainer">
-                    <p id="chartMessage" >Clique numa data para gerar o gráfico</p>
+                    <p id="chartMessage" style="font-size: 10px;">Clique numa data para gerar o gráfico</p>
                     <script>
                             // Mostra a mensagem do grafico ao carregar a página 
                         function initializePage() {
@@ -100,7 +100,7 @@ npx json-server --watch codigo/db/db.json --port 3000
 
                             setTimeout(() => {
                                 chartMessage.style.display = 'none'; 
-                            }, 5000);
+                            }, 3000);
                         }
 
                         initializePage();
