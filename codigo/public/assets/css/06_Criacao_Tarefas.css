@@ -3,18 +3,17 @@ COPIAR CODIGO NO TERMINAL PARA INICIALIZAR O JSON SERVER
 npx json-server --watch codigo/db/db.json --port 3000
 */
 
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #E8F0F2;
     margin: 0;
-    padding: 14px;
+    padding: 1px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow:block;
-
 }
 
 /* Sidebar */
@@ -23,11 +22,12 @@ body {
     background-color: #000;
     color: #fff;
     height: 96vh;
-    position: fixed;
+    position: relative;
     left: 0;
     padding-top: 10px;
-    border-radius: 30px; /* Bordas arredondadas */
+    border-radius: 30px; 
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .sidebar h2 {
@@ -48,10 +48,9 @@ body {
     padding: 0.3em 1px; 
 }
 
-.sidebar ul li.active a{
+.sidebar ul li.active a {
     color: #03d9ff;
-    padding-left: 5px; 
-
+    padding-left: 15px; 
 }
 
 .sidebar ul li {
@@ -68,10 +67,11 @@ body {
     cursor: pointer;
 }
 
+
 /* Main Content */
 .main-content {
-    margin-left: 310px; 
-    margin-right: 25px;
+
+    margin: 10px;
     padding: 10px;
     flex: 1;
     height:180px; 
@@ -85,58 +85,6 @@ body {
     height:30px;
 }
 
-.nav {
-    text-align: center; 
-}
-
-.nav ul li {
-    padding: 0.5em 1em;
-}
-
-.nav ul li a {
-    color: #000000; 
-    text-decoration: none;
-    display: block; 
-}
-
-.nav ul li:hover {
-    background-color: #0056b3; 
-}
-
-
-.right-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 10px;
-}
-
-.right-content .profile {
-    display: flex;
-    align-items: center;
-    border: 2px solid #00A4CC; 
-    border-radius: 30px; /* Bordas arredondadas */
-}
-
-.right-content .name, .right-content .profile img {
-    margin: 2px;
-    margin-left: 25px;
-}
-
-.right-content .profile img {
-    border-radius: 60%;
-    width: 40px;
-    height: 40px;
-}
-
-.right-content .profile a {
-    color: #000000; 
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-decoration: none; 
-    color: inherit; 
-}
 
 /* Formulário de Tarefas */
 .task-form input,
@@ -199,7 +147,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Certifica-se de que os campos fiquem no centro, lado a lado */
 .form-container {
     display: flex;
     justify-content: center; 
@@ -249,6 +196,7 @@ body {
     justify-content: space-around; 
     align-items: center; 
     margin: 15px 0; 
+    margin-top: 0px;
 }
 
 .priority div {
@@ -270,7 +218,9 @@ body {
     width: 95%; 
     text-align: center;
 }
-
+.tasks h2{
+    margin-top: 0px;
+}
 .task-table {
     width: 100%;
     border-collapse: collapse;
@@ -323,47 +273,104 @@ body {
     font-size: 20px; 
 }
 
-#chartContainer {
-    max-width: 210px;
-    margin: auto;    
+
+/* Right Content */
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 25px;
 }
 
-#progressChart {
-    width: 100% !important;
-    height: auto !important; 
-}
-
-.legend {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-}
-
-.legend-item {
-    width: 30px; 
-    height: 20px;
-    margin-right: 0px; 
-    margin-left: 0px;
-} 
-
-.selected-day {
-    background-color: rgba(0, 255, 213, 0.432);
-    color: white;
-}
-
-.calendar,
-.progress {
-    background-color: #B0C4DE;
-    padding: 15px;
+/* Profile */
+.right-content .profile {
+    display: flex;
+    align-items: center;
+    border: 2px solid #00A4CC;
     border-radius: 30px;
-    margin: 10px 0; 
+    margin-top: 10px;
+
+}
+
+.right-content .name,
+.right-content .profile img {
+    margin: 2px;
+    margin-left: 40px;
+}
+
+.right-content .profile img {
+    border-radius: 60%;
+    width: 40px;
+    height: 40px;
+}
+
+.right-content .profile a {
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Progress */
+.progress {
+    text-align: center;
+    background-color: #B0C4DE;
+    padding: 11px;
+    border-radius: 30px;
+    margin: 5px 0;
     width: 92%;
 }
 
-.tempo {
+#chartContainer {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+}
+
+#progressChart {
+    width: 90% !important;
+    height: auto !important;
+    margin: 0;
+}
+
+
+.legend {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.legend-item {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+/* Calendar */
+.calendar-container {
+    background-color: #1cb6ae;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+.calendar {
+    background-color: #B0C4DE;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px 0;
+    width: 92%;
 }
 
 .calendar table {
@@ -372,18 +379,10 @@ body {
     border-collapse: collapse;
 }
 
-.calendar-container {
-    background-color: #1cb6ae;
-    padding: 10px;
-    border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);                                       
-    margin-left: 10px;
-}
-
 .calendar th,
 .calendar td {
-    padding: 10px;
-    border: 1px solid #000;
+    padding: 5.5px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
@@ -392,45 +391,59 @@ body {
     color: white;
 }
 
-/* Melhorias de alinhamento */
 .calendar td {
     text-align: center;
     vertical-align: middle;
     height: 25px;
 }
 
-.progress {
-    text-align: center;
+.tempo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.selected-day {
+    background-color: rgba(0, 255, 213, 0.432);
+    color: white;
+    border-radius: 30px;
+
 }
 
 /* Responsividade */
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
     .sidebar {
-        width: 200px; 
+        width: 200px;
     }
 
     .main-content {
-        margin-left: 225px; 
+        margin-left: 225px;
     }
 
-    .tasks, .calendar, .progress {
+    .tasks,
+    .calendar,
+    .progress {
         width: 95%;
     }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .sidebar {
-        width: 100%; 
-        height: auto; 
+        width: 100%;
+        height: auto;
         position: relative;
     }
 
     .main-content {
         margin-left: 0;
-        margin-right: 0; 
+        margin-right: 0;
     }
 
-    .tasks, .calendar, .progress {
-        width: 95%; 
+    .tasks,
+    .calendar,
+    .progress {
+        width: 95%;
     }
 }
