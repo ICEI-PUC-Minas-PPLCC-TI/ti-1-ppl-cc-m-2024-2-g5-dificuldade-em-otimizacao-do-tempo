@@ -56,7 +56,6 @@ npx json-server --watch codigo/db/db.json --port 3000
                     <div class="numero num3">3</div>  
                     <div class="numero num4">4</div>  
                     <div class="numero num5">5</div>  
-                    <div class="seta"></div> <!-- Seta adicionada -->  
                 </div>  
                 <button id="girar">Clique para girar a Roleta</button>  
             </div>
@@ -79,12 +78,26 @@ npx json-server --watch codigo/db/db.json --port 3000
             </a>
         </div>
         <div class="dicas">
-                <h2>Desempenho</h2>
-                <span class="borda">Trabalho</span>
-                <span>||</span>
-                <span class="borda">Lazer</span>
-                <span>||</span>
-                <span class="borda">Estudo</span>
+            <h2>Desempenho por tempo/categoria</h2>
+            <div style="display: flex;">
+                <div class="Dcategoria">
+                    <h4>Categoria</h4>
+                    <span class="borda" id="trabalho">Trabalho 0</span>
+                    <span>||</span>
+                    <span class="borda" id="lazer">Lazer&emsp; 0</span>
+                    <span>||</span>
+                    <span class="borda" id="estudo" style="margin-bottom: 20px;">Estudo&emsp; 0</span>
+                </div>
+                <div class="Dtempo">
+                    <h4>Tempo</h4>
+                    <span class="borda" id="trabalhoT">Trabalho 0</span>
+                    <span>||</span>
+                    <span class="borda" id="lazerT">Lazer&emsp; 0</span>
+                    <span>||</span>
+                    <span class="borda" id="estudoT" style="margin-bottom: 20px;">Estudo&emsp; 0</span>
+                </div>
+            </div>
+            
         </div>
     </div>
 
