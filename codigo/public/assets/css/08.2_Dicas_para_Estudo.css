@@ -7,7 +7,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #E8F0F2;
     margin: 0;
-    padding: 14px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -22,12 +21,12 @@ body {
     width: 275px;
     background-color: #000;
     color: #fff;
-    height: 96vh;
+    height: 97vh;
     position: fixed;
     left: 0;
     padding-top: 10px;
     border-radius: 30px; /* Bordas arredondadas */
-    margin-left: 10px;
+    margin: 6px;
 }
 
 .sidebar h2 {
@@ -54,7 +53,6 @@ body {
 
 }
 
-
 .sidebar .ul li {
     padding: 0.5em 1em; 
     font-size: 1.41rem; 
@@ -68,6 +66,7 @@ body {
     background-color: #333;
     cursor: pointer;
 }
+
 
 /* Estilos dos sub-itens */
 .sidebar .sub-itens {
@@ -84,7 +83,7 @@ body {
 
 
 .sub-itens li a {
-    color: #ffffffe3; 
+    color: #ffffff; 
     text-decoration: none;
     display: block;
     padding: 0.2em 0; 
@@ -107,10 +106,12 @@ body {
 
 
 
+
+
 /* Main Content */
 .main-content {
-    margin-left: 310px; 
-    margin-right: 25px;
+    margin-left: 300px; 
+    margin-right: 20px;
     padding: 10px;
     flex: 1;
     height: 180px; 
@@ -144,7 +145,7 @@ body {
     background-color: #B0C4DE;
     padding: 10px;
     border-radius: 30px;
-    margin: 20px auto; 
+    margin: 15px auto; 
     width: 95%; 
     text-align: center;
 }
@@ -156,11 +157,11 @@ button {
 }
 
 .roleta #roleta-g {  
-    width: 300px;  
-    height: 300px;  
+    width: 200px;  
+    height: 200px;  
     border-radius: 50%;  
     position: relative;  
-    margin: 20px auto;  
+    margin: 10px auto;  
     border: 5px solid #333;  
     background: conic-gradient(  
         #3f51b5 0deg 72deg,  
@@ -182,13 +183,14 @@ button {
     font-size: 2em;  
     color: #333;  
     font-weight: bold;  
+    
 }  
 
-.num1 { transform: rotate(36deg); top: 0; left: 40%; height: 7em; transform-origin: 0 100%; }  
-.num2 { transform: rotate(108deg); top: 0; left: 33%; height: 5em; transform-origin: 0 100%; }  
-.num3 { transform: rotate(180deg); top: 0; left: 40%; height: 3.6em; transform-origin: 0 100%; }  
-.num4 { transform: rotate(252deg); top: 0; left: 55%; height: 3.4em; transform-origin: 0 100%; }  
-.num5 { transform: rotate(324deg); top: 0; left: 70%; height: 5.6em; transform-origin: 0 100%; }  
+.num1 { transform: rotate(36deg); top: 0; left: 40%; height: 5em; transform-origin: 0 100%; }  
+.num2 { transform: rotate(108deg); top: 0; left: 33%; transform-origin: 0 100%; }  
+.num3 { transform: rotate(180deg); top: 0; left: 40%; height: 2.5em; transform-origin: 0 100%; }  
+.num4 { transform: rotate(252deg); top: 0; left: 56%; height: 2.5em; transform-origin: 0 100%; }  
+.num5 { transform: rotate(324deg); top: 0; left: 70%; height: 4em; transform-origin: 0 100%; }  
 
 
 .mostrar-dicas{
@@ -198,18 +200,16 @@ button {
 #num-sorteado{
     text-align:center;
     display: block; 
-    margin-top: 5px;
 }
 #resultado {
     width: 100%; 
     padding-left: 50px;
-    margin: 10px auto; 
+    margin: 1px auto; 
     font-size: 18px;
     text-align: justify;
     display: none; 
         
 }
-
 
 
 
@@ -228,6 +228,7 @@ button {
     border: 2px solid #00A4CC; 
     border-radius: 30px; 
     margin-bottom: 10px;
+    margin: 10px 10px;
 }
 
 .right-content .name, .right-content .profile img {
@@ -255,14 +256,15 @@ button {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    gap: 5px; 
+    gap: 10px; 
+    border: 2px solid #00A4CC;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px auto;
+    margin-right: 10px;
 }
-
-.dicas h2 {
+.dicas span {
     font-size: 30px;
-}
-.seta {
-font-size: 30px;
 }
 
 
@@ -272,7 +274,7 @@ font-size: 30px;
     border-radius: 30px;
     width: 150px; 
     text-align: center; 
-    margin: 10px 0;
+    margin: 0; 
     font-size: 30px;
 }
 
