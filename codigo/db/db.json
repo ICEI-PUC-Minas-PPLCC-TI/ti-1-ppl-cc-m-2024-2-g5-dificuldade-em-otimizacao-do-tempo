@@ -300,54 +300,66 @@
         "text2": "Substitutos: Leia um livro ou ouça música relaxante no lugar de telas.",
         "text3": "Desativar Notificações: Coloque seu celular em modo não perturbe à noite.",
         "text4": "Desconexão: Reserve 30 minutos antes de dormir sem dispositivos."
+      },
+      {
+        "num": 5,
+        "titulo": "Hábitos Alimentares Saudáveis",
+        "text1": "Refeições leves perto da hora de dormir.",
+        "text2": "Evite beber muita água antes de dormir.",
+        "text3": "Limite cafeína e açúcar após o meio-dia.",
+        "text4": "Pequenos lanches proteicos antes de dormir.",
+        "text5": "Evite alimentos pesados para facilitar a digestão."
       }
+    
+    
     ],
     "tela4": [
       {
         "num": 1,
         "titulo": "Organize Suas Tarefas",
-        "text1": "Cronograma: Divida tarefas grandes em etapas menores.",
-        "text2": "Priorize: Identifique as tarefas mais importantes e urgentes.",
-        "text3": "Revisão: Verifique se as tarefas estão atualizadas.",
-        "text4": "Delegação: Delegue tarefas quando possível.",
-        "text5": "Gerenciamento: Use ferramentas para monitorar prazos."
+        "text1": "Divida tarefas grandes em etapas menores.",
+        "text2": "Priorize as tarefas mais importantes.",
+        "text3": "Verifique se as tarefas estão atualizadas.",
+        "text4": "Delegue tarefas quando possível.",
+        "text5": "Use ferramentas para monitorar prazos."
       },
       {
         "num": 2,
         "titulo": "Priorize e Foco",
-        "text1": "Priorize: Concentre-se no mais importante e urgente.",
-        "text2": "Evite Multitarefa: Concentre-se em uma tarefa por vez.",
-        "text3": "Estabeleça Metas: Defina metas diárias claras para manter a direção.",
-        "text4": "Tire Pausas: Reserve momentos para descansar e recarregar as energias.",
-        "text5": "Produtividade: Use Pomodoro para aumentar o foco."
+        "text1": "Concentre-se no mais importante.",
+        "text2": "Evite multitarefa, foque em uma tarefa.",
+        "text3": "Defina metas diárias claras.",
+        "text4": "Reserve momentos para descansar.",
+        "text5": "Use Pomodoro para aumentar o foco."
       },
       {
         "num": 3,
         "titulo": "Desenvolva Habilidades de Comunicação",
-        "text1": "Comunicação Clara: Expresse-se de forma eficaz e escute ativamente.",
-        "text2": "Feedback: Busque e forneça feedback construtivo para melhorar as interações.",
-        "text3": "Empatia: Entenda o ponto de vista dos outros.",
-        "text4": "Networking: Construa relacionamentos com pessoas que podem agregar valor à sua jornada."
+        "text1": "Expresse-se claramente e escute ativamente.",
+        "text2": "Busque e forneça feedback construtivo.",
+        "text3": "Entenda o ponto de vista dos outros.",
+        "text4": "Construa relacionamentos com networking."
       },
       {
         "num": 4,
         "titulo": "Aprenda a Lidar com o Estresse",
-        "text1": "Invista no Desenvolvimento Pessoal",
-        "text2": "Mindfulness: Pratique a atenção plena para reduzir a ansiedade.",
-        "text3": "Exercícios: Incorpore atividades físicas na sua rotina para aliviar o estresse.",
-        "text4": "Respiração: Use respirações profundas para acalmar.",
-        "text5": "Aprendizado Contínuo: Atualize-se com cursos e novas habilidades."
+        "text1": "Invista no seu desenvolvimento pessoal.",
+        "text2": "Pratique mindfulness para reduzir a ansiedade.",
+        "text3": "Inclua exercícios na rotina para relaxar.",
+        "text4": "Use respirações profundas para acalmar.",
+        "text5": "Faça cursos para novas habilidades."
       },
       {
         "num": 5,
         "titulo": "Aprimore Suas Soluções",
-        "text1": "Cuide do Seu Bem-Estar - Gerencie o Estresse: Use exercícios e meditação para relaxar.",
-        "text2": "Desenvolva Habilidades de Resolução de Problemas.",
-        "text3": "Durma Bem: Durma o suficiente para manter a clareza mental.",
-        "text4": "Analise Situações: Quebre problemas em partes menores para soluções mais fáceis.",
-        "text5": "Busque Soluções Criativas: Pense fora da caixa e experimente novas abordagens."
+        "text1": "Gerencie o estresse com exercícios e meditação.",
+        "text2": "Desenvolva habilidades de resolução de problemas.",
+        "text3": "Durma bem para clareza mental.",
+        "text4": "Quebre problemas em partes menores.",
+        "text5": "Busque soluções criativas e novas ideias."
       }
     ]
+
   },
 "calculo-sono": [
     {
