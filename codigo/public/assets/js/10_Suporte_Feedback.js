@@ -37,3 +37,86 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // ------------------- FIM DA SIDE BAR ------------------- //
+
+// ------------------- CODIGO DO SUPORTE -----------------//
+let feedbackCount = 1;
+let suporteCount = 1;
+
+function enviarFeedback() {
+    const tipo = document.getElementById('tipo').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    if (!mensagem) {
+        alert("Por favor, escreva sua mensagem antes de enviar.");
+        return;
+    }
+
+    let id;
+    if (tipo === "feedback") {
+        id = `feedback${feedbackCount++}`;
+    } else {
+        id = `suporte${suporteCount++}`;
+    }
+
+    const feedbackData = {
+        id,
+        tipo,
+        mensagem,
+        data: new Date().toISOString()
+    };
+
+    fetch('http://localhost:3000/feedback', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(feedbackData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert("Seu feedback foi enviado com sucesso!");
+        document.getElementById('suporteForm').reset();
+    })
+    .catch(error => {
+        alert("Erro ao enviar feedback. Tente novamente.");
+    });
+}
+
+// -------------- CODIGO DAS SOLUÇÕES RAPIDAS -------------- //
+function exibirConteudo() {
+    const opcaoSelecionada = document.getElementById('opcoes').value;
+
+    if (!opcaoSelecionada) {
+        document.getElementById('conteudo-exibicao').innerHTML = '';
+        document.getElementById('conteudo-exibicao').style.border = 'none';
+        return;
+    }
+
+    fetch('/codigo/db/db.json')
+        .then(response => response.json())
+        .then(data => {
+            const conteudoExibicao = document.getElementById('conteudo-exibicao');
+            conteudoExibicao.innerHTML = '';
+
+            const conteudo = data.conteudo[opcaoSelecionada];
+            if (conteudo && conteudo.topicos) {
+                conteudoExibicao.style.border = '3px solid #210af3';
+                conteudo.topicos.forEach(topico => {
+                    const p = document.createElement('p');
+                    p.textContent = "• " + topico;
+                    conteudoExibicao.appendChild(p);
+                });
+            } else {
+                conteudoExibicao.style.border = 'none';
+            }
+
+            conteudoExibicao.style.maxWidth = '100%';
+        })
+        .catch(error => {
+            console.error('Erro ao carregar o conteúdo:', error);
+            document.getElementById('conteudo-exibicao').style.border = 'none';
+        });
+}
+
+
+
