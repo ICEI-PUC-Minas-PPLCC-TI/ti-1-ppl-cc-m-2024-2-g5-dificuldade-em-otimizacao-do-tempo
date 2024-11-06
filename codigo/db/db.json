@@ -193,7 +193,6 @@
         "estimatedDuration": 45
       }
     ]
-
   },
   "telas": {
     "tela1": [
@@ -310,8 +309,6 @@
         "text4": "Pequenos lanches proteicos antes de dormir.",
         "text5": "Evite alimentos pesados para facilitar a digestão."
       }
-    
-    
     ],
     "tela4": [
       {
@@ -359,39 +356,95 @@
         "text5": "Busque soluções criativas e novas ideias."
       }
     ]
-
   },
-"calculo-sono": [
-    {
-        "horaDeitar": "23:02",
-        "horaCompromisso": "05:00",
-        "horaAcordar": "03:32",
-        "tempoSono": "04:30"
-    },
-    {
-        "horaDeitar": "22:45",
-        "horaCompromisso": "06:00",
-        "horaAcordar": "04:15",
-        "tempoSono": "05:30"
-    },
-    {
-        "horaDeitar": "00:30",
-        "horaCompromisso": "07:30",
-        "horaAcordar": "06:00",
-        "tempoSono": "05:30"
-    },
-    {
-        "horaDeitar": "01:15",
-        "horaCompromisso": "08:00",
-        "horaAcordar": "06:45",
-        "tempoSono": "05:30"
-    },
-    {
-        "horaDeitar": "22:00",
-        "horaCompromisso": "05:30",
-        "horaAcordar": "03:00",
-        "tempoSono": "05:00"
-    }
-  ]
+"conteudo": {
+  "dashboard": {
+    "topicos": [
+      "Menu navegação de 4 opções",
+      "Área de mostragem de tarefas",
+      "Clique no calendário para exibir as tarefas",
+      "Mostra um gráfico com base no tempo gasto em cada categoria"
+    ]
+  },
+  "criacao-tarefas": {
+    "topicos": [
+      "Escreva o nome da tarefa",
+      "Escolha os dias de repetição de tarefas (se quiser)",
+      "Escolha a hora, o dia e a prioridade da tarefa",
+      "Escolha as categorias (lazer/trabalho/estudo)",
+      "Área de mostragem de tarefas",
+      "Clique no calendário para exibir as tarefas",
+      "Mostra um gráfico com base no tempo gasto em cada categoria"
+    ]
+  },
+  "cronograma": {
+    "topicos": [
+      "Visualizar tarefas durante um período de 7 dias",
+      "Filtrar semana do mês: Selecionar a semana que deseja visualizar",
+      "Ver sugestões/dicas: Vai para a página de sugestões",
+      "Adicionar tarefa: Vai para a página de criação de tarefas"
+    ]
+  },
+  "sugestaoI": {
+    "topicos": [
+      "Menu navegação de 4 opções:", 
+      "Ajuda com horários", 
+      "Dicas de estudo",
+      "Dicas para descansar"
+    ]
+  },
+  "ajuda-horarios": {
+    "topicos": [
+      "Exibir horários vagos na tabela de acordo com a semana",
+      "Exibir dias mais tranquilos"
+    ]
+  },
+  "dicas-estudo": {
+    "topicos": [
+      "Clique na roleta para exibir as 4 dicas",
+      "Técnicas de estudo",
+      "Organizar tempo de estudo"
+    ]
+  },
+  "descansar-dormir": {
+    "topicos": [
+      "Clique na roleta para exibir as 4 dicas",
+      "Calcular horário de dormir e acordar",
+      "Digite o horário de deitar",
+      "Digite o horário do compromisso",
+      "Exibir a hora de acordar",
+      "Exibir tempo de sono"
+    ]
+  },
+  "desempenho": {
+    "topicos": [
+      "Clique na roleta para exibir as 4 dicas",
+      "Mostra o tanto de tarefas por categoria",
+      "Mostra o tanto de horas gastas por categoria"
+    ]
+  },
+  "progresso": {
+    "topicos": [
+      "Exibir gráfico de tarefas concluídas",
+      "Exibir gráfico de tarefas não concluídas",
+      "Exibir tempo gasto por categoria: Trabalho, Lazer, Estudo",
+      "Exibir gráfico de média entre trabalho, lazer e estudo"
+    ]
+  },
+  "suporte-feedback": {
+    "topicos": [
+      "Enviar feedback",
+      "Obter ajuda com o aplicativo"
+    ]
+  },
+  "perfil-usuario": {
+    "topicos": [
+      "Editar nome completo",
+      "Editar idade",
+      "Editar email",
+      "Editar nome de usuário"
+    ]
+  }
+}
 
 }
