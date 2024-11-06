@@ -123,11 +123,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const lastLi = resultadoDiv.lastElementChild;
         if (lastLi) {
-            lastLi.style.marginBottom = "20px";
+            lastLi.style.marginBottom = "10px";
         }
 
         resultadoDiv.style.display = "block"; 
         mostrarDicasDiv.style.border = "2px solid #00a4cc"; 
         mostrarDicasDiv.style.borderRadius = "30px"; 
+
+
+
     }
 } 
