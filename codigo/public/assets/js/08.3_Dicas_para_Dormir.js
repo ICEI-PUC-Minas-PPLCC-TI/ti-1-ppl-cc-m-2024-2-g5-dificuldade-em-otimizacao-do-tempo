@@ -123,12 +123,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const lastLi = resultadoDiv.lastElementChild;
         if (lastLi) {
-            lastLi.style.marginBottom = "20px";
+            lastLi.style.marginBottom = "10px";
         }
 
         resultadoDiv.style.display = "block"; 
         mostrarDicasDiv.style.border = "2px solid #00a4cc"; 
         mostrarDicasDiv.style.borderRadius = "30px"; 
+
+
+
     }
 } 
 
@@ -174,6 +177,9 @@ function calcularSono() {
         tempoSono = (24 * 60 - deitarMinutos) + horaAcordar;
     }
 
+    horaAcordar -= 30;
+    tempoSono -= 30;
+
     const horaAcordarFormatada = converterMinutosParaHora(horaAcordar);
     const tempoSonoHoras = converterMinutosParaHora(tempoSono);
 
@@ -193,7 +199,6 @@ function converterMinutosParaHora(minutos) {
     const mm = String(minutos % 60).padStart(2, '0');
     return `${hh}:${mm}`;
 }
-
 
 function limparCampos() {
     document.querySelector('.compromisso input').value = '';

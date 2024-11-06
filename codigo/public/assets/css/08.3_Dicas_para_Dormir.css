@@ -6,26 +6,25 @@ body {
     font-family: Arial, sans-serif;
     background-color: #E8F0F2;
     margin: 0;
+    padding: 1px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow:block;
-
 }
 
-/* Sidebar */
 .sidebar {
-    width: 275px;
+    width: 40vh;
     background-color: #000;
     color: #fff;
-    height: 97vh;
-    position: fixed;
+    height: 96vh;
+    position: relative;
     left: 0;
     padding-top: 10px;
-    border-radius: 30px; /* Bordas arredondadas */
-    margin: 6px;
+    border-radius: 30px; 
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .sidebar h2 {
@@ -34,34 +33,33 @@ body {
     font-size: 30px;
 }
 
-.sidebar .ul {
+.sidebar ul {
     list-style-type: none;
     padding: 0;
 }
 
-.sidebar .ul li a {
+.sidebar ul li a {
     color: #fff; 
     text-decoration: none; 
     display: block;
-    padding: 0.3em 1px; 
+    padding: 0.2rem 1px; 
 }
 
-.sidebar .ul li.active a{
+.sidebar ul li.active a {
     color: #03d9ff;
-    padding-left: 10px; 
-
+    padding-left: 15px; 
 }
 
-.sidebar .ul li {
+.sidebar ul li {
     padding: 0.5em 1em; 
     font-size: 1.41rem; 
 }
 
-.sidebar .ul li i {
+.sidebar ul li i {
     margin-right: 10px;
 }
 
-.sidebar .ul li:hover {
+.sidebar ul li:hover {
     background-color: #333;
     cursor: pointer;
 }
@@ -69,42 +67,48 @@ body {
 
 /* Estilos dos sub-itens */
 .sidebar .sub-itens {
-    font-size: 18px; 
-    margin-top: 15px; 
+    font-size: 12px; 
+    margin-top: 1px; 
     list-style-type: none; 
     padding-left: 1px;
 
 }
 
 .sub-itens li {
-    margin-bottom: 20px; 
+    margin-top: 0;
+    margin-bottom: 0; 
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
 }
 
 
+/* Estilos para os links */
 .sub-itens li a {
-    color: #ffffff; 
+    color: #ddd; 
     text-decoration: none;
     display: block;
-    padding: 0.2em 0; 
+    padding: 0.1em 0; /*tamanho dos itens*/
+    font-size: 20px;
 }
 
+/* Efeito hover para os sub-itens */
 .sub-itens li:hover {
     background-color: #333; 
     cursor: pointer;
 }
 
-.sidebar .sub-itens li.active a {
-    color: #0cc0df; 
+/* Ativação dos itens e alteração de cor */
+.sidebar .ul li.active a{
+    color: #03d9ff;
     padding-left: 10px; 
 
 }
 
 
 
-
 /* Main Content */
 .main-content {
-    margin-left: 300px; 
     margin-right: 20px;
     padding: 10px;
     flex: 1;
@@ -121,6 +125,7 @@ body {
     align-items: center;
     height: 30px;
     margin-bottom: 10px;
+    
 }
 
 .top-desemepenho span {
@@ -133,6 +138,8 @@ body {
     text-align: center;
     display: block; 
     background-color: #00a4cc;
+    margin-top: 0;
+    margin-bottom: 1px;
 }
 
 .roleta, button {
@@ -145,9 +152,11 @@ body {
 }
 
 button {
-    font-size: 15px;
     background-color: #00a4cc;
     cursor: pointer;
+    font-size: 1vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .roleta #roleta-g {  
@@ -189,17 +198,23 @@ button {
 
 .mostrar-dicas{
     box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #num-sorteado{
     text-align:center;
     display: block; 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
 }
 #resultado {
+    margin-top: 1000px;
     width: 100%; 
     padding-left: 50px;
     margin: 1px auto; 
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     display: none; 
         
@@ -210,44 +225,46 @@ button {
 
 
 
-
 /* Right Content */
-.right-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 10px;
-}
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 10px;
+        gap: 1rem;
 
-.right-content .profile {
-    display: flex;
-    align-items: center;
-    border: 2px solid #00A4CC; 
-    border-radius: 30px; 
-    margin-bottom: 10px;
-    margin: 10px 10px;
-}
+    }
 
-.right-content .name, .right-content .profile img {
-    margin: 2px;
-    margin-left: 25px;
-}
+    /* Profile */
+    .right-content .profile {
+        display: flex;
+        align-items: center;
+        border: 2px solid #00A4CC;
+        border-radius: 30px;
+        margin-top: 10px;
 
-.right-content .profile img {
-    border-radius: 60%;
-    width: 40px;
-    height: 40px;
-}
+    }
 
-.right-content .profile a {
-    color: #000000; 
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-decoration: none; 
-    color: inherit; 
-}
+    .right-content .name,
+    .right-content .profile img {
+        margin: 2px;
+        margin-left: 40px;
+    }
 
+    .right-content .profile img {
+        border-radius: 60%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .right-content .profile a {
+        color: #000000;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
 
 /* Dicas */
 .dicas {
@@ -259,8 +276,7 @@ button {
     padding: 10px;
     border-radius: 30px;
     margin: 10px auto;
-    margin-right: 10px;
-    margin-top: 30.25px;
+    margin-top:10.25px;
 
 }
 
@@ -269,14 +285,19 @@ button {
     flex-direction: column; 
     align-items: center; 
 }
+.compromisso{
+    margin-top: 0;
+}
 
 .dicas span, .dicas input {
     display: block; 
-    margin-bottom: 6px; 
+    margin-bottom: 10px; 
 }
 
 .dicas h2 {
     font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .dicas span {
@@ -285,7 +306,7 @@ button {
 
 .borda-H {
     border: 2px solid #00A4CC;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
     width: 150px;
     text-align: center; 
@@ -304,6 +325,9 @@ button {
     display: flex; 
     justify-content: space-between; 
     gap: 10px; 
+    font-size: 1vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 
@@ -339,3 +363,4 @@ button {
         width: 95%; 
     }
 }
+
