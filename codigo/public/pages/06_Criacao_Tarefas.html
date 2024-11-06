@@ -31,33 +31,31 @@ npx json-server --watch codigo/db/db.json --port 3000
         </ul>
     </div>
     
-    
-    
-    <div class="main-content">
+    <div class="main-content" style="margin-left: 10px;">
         <div class="header">
             <h1>Criação de Tarefas</h1>
         </div>
-        <div class="task-form">
-            <input class="nome-da-tarefa" placeholder="Nome da tarefa" type="text" /> 
+        <div class="task-form" style="justify-content: center;">
+            <input class="nome-da-tarefa" id="nome-da-tarefa" placeholder="Nome da tarefa" type="text"> 
             <div class="chackbox-repeat">
 
                 <span class="Daysrepeat">Dias em que a tarefa se repete, além da data programada.</span>
                 <div class="repeat">
-                    <label><input type="checkbox" name="recurrenceDays" value="1"> Domingo</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="2"> Segunda</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="3"> Terça</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="4"> Quarta</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="5"> Quinta</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="6"> Sexta</label>
-                    <label><input type="checkbox" name="recurrenceDays" value="7"> Sábado</label>
+                    <label><input class="dom" type="checkbox" name="recurrenceDays" value="1"> Domingo</label>
+                    <label><input class="seg" type="checkbox" name="recurrenceDays" value="2"> Segunda</label>
+                    <label><input class="ter" type="checkbox" name="recurrenceDays" value="3"> Terça</label>
+                    <label><input class="quar" type="checkbox" name="recurrenceDays" value="4"> Quarta</label>
+                    <label><input class="qui" type="checkbox" name="recurrenceDays" value="5"> Quinta</label>
+                    <label><input class="sex" type="checkbox" name="recurrenceDays" value="6"> Sexta</label>
+                    <label><input class="sab" type="checkbox" name="recurrenceDays" value="7"> Sábado</label>
                 </div>
             </div>   
             <div class="form-container">
                 
                 
                 <div class="form">
-                    <input placeholder="Hora da tarefa" type="time" />
-                    <input placeholder="Data da tarefa" type="date" name="dateUsuario" />
+                    <input class="Hora" placeholder="Hora da tarefa" type="time" />
+                    <input class="Data" placeholder="Data da tarefa" type="date" name="dateUsuario" />
                 </div>
                 <div class="task-time-form">
                     <input placeholder="Tempo gasto (minutos)" type="number" id="estimatedDuration" />
@@ -114,6 +112,7 @@ npx json-server --watch codigo/db/db.json --port 3000
                 
             </div>
     </div>
+
     <div class="right-content">
         <div class="profile">
             <a href="/perfil.html">
@@ -180,6 +179,7 @@ npx json-server --watch codigo/db/db.json --port 3000
             </table>
         </div>
     </div>
+
     <script src="../assets/js/06_Criacao_Tarefas.js"></script>
 </body>
 

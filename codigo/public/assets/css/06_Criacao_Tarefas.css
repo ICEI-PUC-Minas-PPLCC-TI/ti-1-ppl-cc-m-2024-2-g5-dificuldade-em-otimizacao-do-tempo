@@ -18,7 +18,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-    width: 275px;
+    width: 40vh;
     background-color: #000;
     color: #fff;
     height: 96vh;
@@ -70,71 +70,68 @@ body {
 
 /* Main Content */
 .main-content {
-
-    margin: 10px;
     padding: 10px;
-    flex: 1;
-    height:180px; 
-    overflow:block;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:30px;
+    height: 30px;
+    margin-top: 4px;
 }
 
-
-/* Formulário de Tarefas */
 .task-form input,
-.task-form #category-filter,
-.task-form button {
-    width: 90%; 
-    padding: 8px; 
-    margin: 10px auto; 
-    border: 2px solid #00A4CC; 
-    border-radius: 30px; 
+#nome-da-tarefa,
+.task-form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #00A4CC;
+    border-radius: 30px;
     font-size: 25px;
     text-align: center;
-    display: block; 
+    box-sizing: border-box;
+    display: block;
 }
 
-.task-form .chackbox-repeat{
-    border: 2px solid #00A4CC; 
+.task-form .chackbox-repeat {
+    border: 2px solid #00A4CC;
     border-radius: 30px;
-    width: 100%; 
-
-
+    width: 100%;
 }
-.task-form .Daysrepeat{
-    width: 90%; 
-    margin: 1px auto; 
-    border-radius: 30px; 
-    font-size: 25px; 
+
+.task-form .Daysrepeat {
+    width: 90%;
+    margin: 1px auto;
+    border-radius: 30px;
+    font-size: 25px;
     text-align: center;
     display: block;
 }
+
 .task-form .repeat {
     display: flex;
     align-items: center;
-    gap: 70px; 
+    gap: 70px;
     padding: 10px;
     margin: 0 10px;
     font-size: 20px;
     justify-content: center;
 }
 
-
-.task-form button {
-    background-color: #00a4cc; 
-    color: #fff; 
-    cursor: pointer; 
-}
-
 .form-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .form, .task-time-form {
@@ -142,15 +139,57 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-    padding: 10px; 
+    width: 45%;
+    padding: 10px;
     box-sizing: border-box;
 }
 
-.form-container {
+.form input,
+.form select,
+.task-time-form input,
+.task-time-form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #00A4CC;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#add-task-form {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#add-task-button {
+    background-color: #00a4cc;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.priority {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    margin: 15px 0;
+    margin-top: 0px;
+}
+
+.priority div {
+    display: flex;
+    align-items: center;
+}
+
+.priority div span {
+    margin-left: 10px;
+    font-size: 18px;
 }
 
 .priority-button {
@@ -165,20 +204,16 @@ body {
 
 .priority-button[data-priority="alta"] {
     background-color: red;
-    width: 40px; height: 20px;
 }
 
 .priority-button[data-priority="media"] {
     background-color: yellow;
-    width: 40px; height: 20px;
 }
 
 .priority-button[data-priority="baixa"] {
     background-color: green;
-    width: 40px; height: 20px;
 }
 
-/* Estilo para o ponto de seleção */
 .priority-button.selected::after {
     content: '';
     width: 6px;
@@ -186,92 +221,85 @@ body {
     background-color: black;
     border-radius: 30%;
     position: absolute;
-    top: 7px; 
-    left: 17px; 
+    top: 7px;
+    left: 17px;
 }
 
-/* Seção de Prioridade */
-.priority {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
-    margin: 15px 0; 
-    margin-top: 0px;
-}
 
-.priority div {
-    display: flex;
-    align-items: center; 
-}
+/* Tasks da main content(onde aparece as tarefas)*/
+    .tasks {
+        background-color: #B0C4DE;
+        padding: 10px;
+        border-radius: 30px;
+        margin: 20px auto; 
+        width: 95%; 
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 2px;
+    }
+    .tasks h2{
+        margin-top: 1px;
+        margin-bottom: 9px;
+    }
+    .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto; 
+    }
 
-.priority div span {
-    margin-left: 10px; 
-    font-size: 18px;
-}
+    .task-table th {
+        border: 0px solid #ddd;
+        padding: 8px;
+        text-align: center; 
+    }
 
-/* Tasks */
-.tasks {
-    background-color: #B0C4DE;
-    padding: 10px;
-    border-radius: 30px;
-    margin: 20px auto; 
-    width: 95%; 
-    text-align: center;
-}
-.tasks h2{
-    margin-top: 0px;
-}
-.task-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto; 
-}
+    .task-table td {
+        border: 0px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        padding-bottom: 1px;
+    }
 
-.task-table th, .task-table td {
-    border: 0px solid #ddd;
-    padding: 8px;
-    text-align: center; 
-}
+    .task-table th {
+        background-color: #f2f2f2;
+    }
 
-.task-table th {
-    background-color: #f2f2f2;
-}
+    .tasks table thead th {
+        background-color: #009efa;
+        padding: 5px;
+        font-size: 24px;
+    }
 
-.tasks table thead th {
-    background-color: #009efa;
-    padding: 5px;
-    font-size: 24px;
-}
+    .tasks table tbody td.time {
+        padding: 1px; 
+        width: 10%;
+    }
 
-.tasks table tbody td.time {
-    padding: 1px; 
-    width: 10%;
-}
+    .tasks table tbody td.task-name {
+        padding: 10px;
+        width: 50%;
+    }
 
-.tasks table tbody td.task-name {
-    padding: 10px;
-    width: 50%;
-}
+    .tasks table tbody td.category,
+    .tasks table tbody td.priority {
+        padding: 10px; 
+        width: 17.5%;
+    }
 
-.tasks table tbody td.category,
-.tasks table tbody td.priority {
-    padding: 10px; 
-    width: 17.5%;
-}
+    .tasks ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: 20px;
+    }
 
-/* Centralizando lista de tarefas */
-.tasks ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 20px;
-}
+    .tasks ul li {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        font-size: 20px; 
+    }
 
-.tasks ul li {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    font-size: 20px; 
-}
+
 
 
 /* Right Content */
@@ -279,7 +307,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 25px;
+    margin-right: 10px;
+    gap: 1rem;
 }
 
 /* Profile */
@@ -313,119 +342,118 @@ body {
     color: inherit;
 }
 
+    /* Progress */
+    .progress {
+        text-align: center;
+        background-color: #B0C4DE;
+        padding: 11px;
+        border-radius: 30px;
+        margin: 5px 0;
+        width: 92%;
+    }
 
-/* Progress */
-.progress {
-    text-align: center;
-    background-color: #B0C4DE;
-    padding: 11px;
-    border-radius: 30px;
-    margin: 5px 0;
-    width: 92%;
-}
+    #chartContainer {
+        max-width: 200px;
+        margin: auto;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#chartContainer {
-    max-width: 200px;
-    margin: auto;
-    margin-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#progressChart {
-    width: 90% !important;
-    height: auto !important;
-    margin: 0;
-}
+    #progressChart {
+        width: 90% !important;
+        height: auto !important;
+        margin: 0;
+    }
 
 
-.legend {
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    text-align: center;
-}
+    .legend {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        text-align: center;
+    }
 
-.legend-item {
-    width: 30px;
-    height: 20px;
-    margin-right: 10px;
-    margin-left: 20px;
-    text-align: center;
+    .legend-item {
+        width: 30px;
+        height: 20px;
+        margin-right: 10px;
+        margin-left: 20px;
+        text-align: center;
 
-}
+    }
 
-/* Calendar */
-.calendar-container {
-    background-color: #1cb6ae;
-    padding: 10px;
-    border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
-}
+    /* Calendar */
+    .calendar-container {
+        background-color: #1cb6ae;
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: 10px;
+    }
 
-.calendar {
-    background-color: #B0C4DE;
-    padding: 15px;
-    border-radius: 30px;
-    margin: 10px 0;
-    width: 92%;
-}
+    .calendar {
+        background-color: #B0C4DE;
+        padding: 15px;
+        border-radius: 30px;
+        margin: 10px 0;
+        width: 92%;
+    }
 
-.calendar table {
-    width: 100%;
-    text-align: center;
-    border-collapse: collapse;
-}
+    .calendar table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
 
-.calendar th,
-.calendar td {
-    padding: 5.5px;
-    border-radius: 30px;
-    cursor: pointer;
-}
+    .calendar th,
+    .calendar td {
+        padding: 5.5px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
 
-.calendar td:hover {
-    background-color: #00A4CC;
-    color: white;
-}
+    .calendar td:hover {
+        background-color: #00A4CC;
+        color: white;
+    }
 
-.calendar td {
-    text-align: center;
-    vertical-align: middle;
-    height: 25px;
-}
+    .calendar td {
+        text-align: center;
+        vertical-align: middle;
+        height: 25px;
+    }
 
-.tempo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
+    .tempo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 30px;
 
-}
+    }
 
-.selected-day {
-    background-color: rgba(0, 255, 213, 0.432);
-    color: white;
-    border-radius: 30px;
+    .selected-day {
+        background-color: rgba(0, 255, 213, 0.432);
+        color: white;
+        border-radius: 30px;
 
-}
+    }
 
 /* Responsividade */
 @media (max-width: 1024px) {
     .sidebar {
-        width: 200px;
+        width: 180px;
     }
 
     .main-content {
-        margin-left: 225px;
+        margin-left: 190px;
     }
 
     .tasks,
     .calendar,
     .progress {
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -439,11 +467,21 @@ body {
     .main-content {
         margin-left: 0;
         margin-right: 0;
+        padding: 10px;
     }
 
     .tasks,
     .calendar,
     .progress {
-        width: 95%;
+        width: 90%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .sidebar,
+    .main-content {
+        padding: 5px;
     }
 }
