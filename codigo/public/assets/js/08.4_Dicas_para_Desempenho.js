@@ -121,26 +121,29 @@ npx json-server --watch codigo/db/db.json --port 3000
 
         const lastLi = resultadoDiv.lastElementChild;
         if (lastLi) {
-            lastLi.style.marginBottom = "20px";
+            lastLi.style.marginBottom = "10px";
         }
 
         resultadoDiv.style.display = "block"; 
         mostrarDicasDiv.style.border = "2px solid #00a4cc"; 
         mostrarDicasDiv.style.borderRadius = "30px"; 
+
+
+
     }
 }
 
 
-{//------------ Codigo para contagem de tarefas --------------- //
+//------------ Codigo para contagem de tarefas --------------- //
     async function atualizarContagemTarefas() {
         try {
             const response = await fetch('/codigo/db/db.json');
             const data = await response.json();
-    
+
             let contagemTrabalho = 0;
             let contagemLazer = 0;
             let contagemEstudo = 0;
-    
+
             data.tarefas.listaDeTarefas.forEach(tarefa => {
                 switch (tarefa.category) {
                     case 'Trabalho':
@@ -154,7 +157,7 @@ npx json-server --watch codigo/db/db.json --port 3000
                         break;
                 }
             });
-    
+
             data.tarefas.adicionarTarefas.forEach(tarefa => {
                 switch (tarefa.category) {
                     case 'Trabalho':
@@ -168,70 +171,70 @@ npx json-server --watch codigo/db/db.json --port 3000
                         break;
                 }
             });
-    
+
             document.getElementById('trabalho').textContent = `Trabalho ${contagemTrabalho}`;
             document.getElementById('lazer').textContent = `Lazer ${contagemLazer}`;
             document.getElementById('estudo').textContent = `Estudo ${contagemEstudo}`;
-    
+
         } catch (error) {
             console.error('Erro ao atualizar contagem de tarefas:', error);
         }
     }
-    
-    atualizarContagemTarefas();
-    
-}
 
+//---------- Codigo para a contagem de tempo --------------- //    
+async function atualizarDuracaoEstimadas() {
+    try {
+        const response = await fetch('/codigo/db/db.json');
+        const data = await response.json();
 
-{//---------- Codigo para a contagem de tempo --------------- //
-    async function atualizarDuracaoEstimadas() {
-        try {
-            const response = await fetch('/codigo/db/db.json');
-            const data = await response.json();
-    
-            let duracaoTrabalho = 0;
-            let duracaoLazer = 0;
-            let duracaoEstudo = 0;
-    
-            data.tarefas.listaDeTarefas.forEach(tarefa => {
-                switch (tarefa.category) {
-                    case 'Trabalho':
-                        duracaoTrabalho += tarefa.estimatedDuration;
-                        break;
-                    case 'Lazer':
-                        duracaoLazer += tarefa.estimatedDuration;
-                        break;
-                    case 'Estudo':
-                        duracaoEstudo += tarefa.estimatedDuration;
-                        break;
-                }
-            });
-    
-            data.tarefas.adicionarTarefas.forEach(tarefa => {
-                switch (tarefa.category) {
-                    case 'Trabalho':
-                        duracaoTrabalho += tarefa.estimatedDuration;
-                        break;
-                    case 'Lazer':
-                        duracaoLazer += tarefa.estimatedDuration;
-                        break;
-                    case 'Estudo':
-                        duracaoEstudo += tarefa.estimatedDuration;
-                        break;
-                }
-            });
-    
-            document.getElementById('trabalhoT').textContent = `Trabalho ${duracaoTrabalho}`;
-            document.getElementById('lazerT').textContent = `Lazer ${duracaoLazer}`;
-            document.getElementById('estudoT').textContent = `Estudo ${duracaoEstudo}`;
-    
-        } catch (error) {
-            console.error('Erro ao atualizar duração estimada das tarefas:', error);
+        let duracaoTrabalho = 0;
+        let duracaoLazer = 0;
+        let duracaoEstudo = 0;
+
+        data.tarefas.listaDeTarefas.forEach(tarefa => {
+            switch (tarefa.category) {
+                case 'Trabalho':
+                    duracaoTrabalho += tarefa.estimatedDuration;
+                    break;
+                case 'Lazer':
+                    duracaoLazer += tarefa.estimatedDuration;
+                    break;
+                case 'Estudo':
+                    duracaoEstudo += tarefa.estimatedDuration;
+                    break;
+            }
+        });
+
+        data.tarefas.adicionarTarefas.forEach(tarefa => {
+            switch (tarefa.category) {
+                case 'Trabalho':
+                    duracaoTrabalho += tarefa.estimatedDuration;
+                    break;
+                case 'Lazer':
+                    duracaoLazer += tarefa.estimatedDuration;
+                    break;
+                case 'Estudo':
+                    duracaoEstudo += tarefa.estimatedDuration;
+                    break;
+            }
+        });
+
+        function formatarDuracao(minutos) {
+            return `${Math.floor(minutos / 60)}h`;
         }
+
+        document.getElementById('trabalhoT').textContent = `Trabalho ${formatarDuracao(duracaoTrabalho)}`;
+        document.getElementById('lazerT').textContent = `Lazer ${formatarDuracao(duracaoLazer)}`;
+        document.getElementById('estudoT').textContent = `Estudo ${formatarDuracao(duracaoEstudo)}`;
+
+    } catch (error) {
+        console.error('Erro ao atualizar duração estimada das tarefas:', error);
     }
-    
-    document.addEventListener('DOMContentLoaded', atualizarDuracaoEstimadas);
-    
-    
-    
 }
+
+
+    //Atualizar os dados
+    document.getElementById('atualizarDados').addEventListener('click', () => {
+        atualizarContagemTarefas();
+        atualizarDuracaoEstimadas();
+    });
