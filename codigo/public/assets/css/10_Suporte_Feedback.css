@@ -69,12 +69,17 @@ body {
 
 /* Main Content */
 .main-content {
-    margin-left: 310px; 
     margin-right: 25px;
     padding: 10px;
     flex: 1;
-    height:180px; 
-    overflow:block;
+    height: 180px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 2px solid #ff00bb;
 }
 
 .header {
@@ -84,8 +89,81 @@ body {
     height:30px;
 }
 
+/* Support and Feedback Section */
+.support-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #8fd3d3;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    border: 2px solid #ff0000;
+}
 
+.support-feedback h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
 
+.support-feedback p {
+    font-size: 20px;
+}
+
+/* Feedback Form */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #22bfbf;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #8cff00;
+}
+
+.feedback-form h3 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.feedback-form label {
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+    display: block;
+}
+
+.feedback-form select,
+.feedback-form textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #00fff7;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #008080;
+    color: #fff;
+    border: 2px solid #fbff00;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.feedback-form button:hover {
+    border: 2px solid #3300ff;
+}
 
 /* Right Content */
 .right-content {
@@ -128,8 +206,49 @@ body {
 }
 
 
+/* Solutions Section */
+.solucoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border: #3300ff;
+}
 
-/* Responsividade */
+.solucoes h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.solucoes select {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+/* Display Content */
+.conteudo-exibicao {
+    width: 88%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 2px solid #b300ff;
+}
+
+.conteudo-exibicao p {
+    margin: 10px 0;
+}
+
+/* Responsiveness */
 @media (max-width: 1024px) { 
     .sidebar {
         width: 200px; 
@@ -139,7 +258,7 @@ body {
         margin-left: 225px; 
     }
 
-    .right-content/*remova a rigth-content e coloque as classes dela sem o perfil*/ {
+    .right-content {
         width: 95%;
     }
 }
@@ -156,7 +275,7 @@ body {
         margin-right: 0; 
     }
 
-    .right-content/*remova a rigth-content e coloque as classes dela sem o perfil*/{
+    .right-content {
         width: 95%; 
     }
 }
