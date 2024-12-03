@@ -258,5 +258,6 @@ Abaixo está a estrutura de diretórios do projeto, com uma descrição detalhad
 - **package.json**  : - Configuração do back end com dependências e scripts
 - **README.md**  : - Arquivo README.md principal com informações gerais sobre o projeto
 
+
 ---
 
