@@ -30,9 +30,11 @@ Este projeto é organizado da seguinte forma:
 - **`docs/`** : Documentação e arquivos auxiliares.
   - **`files/`** : Arquivos de documentos como PDFs e outros tipos de arquivo.
     - Outros arquivos de documentos importantes.
-  - **`images/`** : Imagens auxiliares usadas na documentação.
-  - **`README.md`** : Descrição geral do projeto e informações sobre a estrutura.
-  - Outros arquivos de docs que complementam as informações.
+    - **`images/`** : Imagens auxiliares usadas na documentação.
+    - **`README.md`** : Descrição geral do projeto e informações sobre a estrutura.
+    - Outros arquivos de docs que complementam as informações.
+  **`README.md`**: Arquivo README.md das telas do sistema
+  Descrição das telas e funcionalidades principais da aplicação.
 
 - **`pages/`** : Páginas HTML que compõem o sistema.
   - Outras páginas HTML que formam a navegação do site.
@@ -45,8 +47,6 @@ Este arquivo contém informações gerais sobre o projeto, como objetivos, confi
 ## `package.json` : Configuração do back end
 Este arquivo contém as dependências do back end e scripts necessários para rodar o projeto.
 
-## `README.md` : Arquivo README.md das telas do sistema
-Descrição das telas e funcionalidades principais da aplicação.
 
 
 ## Parte Front End
