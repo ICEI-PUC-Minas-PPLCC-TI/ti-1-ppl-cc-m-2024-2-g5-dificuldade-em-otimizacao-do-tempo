@@ -5,44 +5,48 @@ Essa é a pasta para a manter o programa que vocês vão construir no contexto d
 Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
 
 Uma sugestão da estrutura de diretórios para o projeto é a seguinte:
-`
-    - **codigo/**  : - Pasta principal
-    │
-    ├── - **db/**  : - Dados do back end
-    │   ├── - **db.json**  : - Estruturas de dados principais do sistema
-    │   └── - **DB.json**  : - Segunda estrutura de dados
-    │
-    ├── - **public/**  : - Seu site - Front end
-    │   ├── - **assets/**  : - Arquivos estáticos utilizados pelo site
-    │   │   ├── - **css/**  : - Estilos CSS que definem a aparência das páginas
-    │   │   │   └── : - Outros arquivos .css usados no design do site
-    │   │   │
-    │   │   ├── - **js/**  : - Scripts JavaScript que adicionam funcionalidades dinâmicas ao sistema
-    │   │   │   └── : - Outros arquivos .js que controlam interatividade
-    │   │   │
-    │   │   ├── - **images/**  : - Imagens utilizadas no design da interface
-    │   │   │   ├── icone_padrão.png  : - Ícone padrão utilizado no site
-    │   │   │   ├── seta-para-cima.png  : - Imagem de seta usada para navegação
-    │   │   │   └── : - Outras imagens usadas no design do site
-    │   │
-    │   ├── - **docs/**  : - Documentação e arquivos auxiliares
-    │   │   ├── - **files/**  : - Arquivos de documentos como PDFs e outros tipos de arquivo
-    │   │   │   └── : - Outros arquivos de documentos importantes
-    │   │   ├── - **images/**  : - Imagens de documentos ou auxiliares usados na documentação
-    │   │   │   └── : - Outras imagens que ilustram ou complementam a documentação
-    │   │   ├── - **README.md**  : - Arquivo README.md que descreve a estrutura do projeto
-    │   │   └── : - Outros arquivos de docs que contêm informações adicionais
-    │   │
-    │   ├── - **pages/**  : - Páginas HTML que compõem o sistema
-    │   │   └── : - Outras páginas HTML que formam a navegação do site
-    │   │
-    │   └── : - Outros arquivos do site que podem incluir bibliotecas e recursos
-    │
-    └── - **README.md**  : - Arquivo README.md das telas do sistema
-    - **package.json**  : - Configuração do back end com dependências e scripts
-    - **README.md**  : - Arquivo README.md principal com informações gerais sobre o projeto
 
-`
+# Estrutura do Projeto
+
+Este projeto é organizado da seguinte forma:
+
+## `codigo/` : Pasta principal
+
+### `db/` : Dados do back end
+- **`db.json`** : Estrutura de dados principais do sistema.
+- **`DB.json`** : Segunda estrutura de dados para backup ou dados alternativos.
+
+### `public/` : Front end do seu site
+- **`assets/`** : Arquivos estáticos utilizados pelo site.
+  - **`css/`** : Estilos CSS que definem a aparência das páginas.
+    - Outros arquivos `.css` usados no design do site.
+  - **`js/`** : Scripts JavaScript que adicionam funcionalidades dinâmicas ao sistema.
+    - Outros arquivos `.js` que controlam a interatividade do site.
+  - **`images/`** : Imagens utilizadas no design da interface.
+    - **`icone_padrão.png`** : Ícone padrão utilizado no site.
+    - **`seta-para-cima.png`** : Imagem de seta usada para navegação.
+    - Outras imagens usadas no design do site.
+
+- **`docs/`** : Documentação e arquivos auxiliares.
+  - **`files/`** : Arquivos de documentos como PDFs e outros tipos de arquivo.
+    - Outros arquivos de documentos importantes.
+  - **`images/`** : Imagens auxiliares usadas na documentação.
+  - **`README.md`** : Descrição geral do projeto e informações sobre a estrutura.
+  - Outros arquivos de docs que complementam as informações.
+
+- **`pages/`** : Páginas HTML que compõem o sistema.
+  - Outras páginas HTML que formam a navegação do site.
+
+- Outros arquivos de suporte ao site, como bibliotecas ou recursos adicionais.
+
+## `README.md` : Arquivo README.md principal
+Este arquivo contém informações gerais sobre o projeto, como objetivos, configuração e execução.
+
+## `package.json` : Configuração do back end
+Este arquivo contém as dependências do back end e scripts necessários para rodar o projeto.
+
+## `README.md` : Arquivo README.md das telas do sistema
+Descrição das telas e funcionalidades principais da aplicação.
 
 
 ## Parte Front End
