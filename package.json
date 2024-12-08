@@ -8,7 +8,7 @@
     "server2": "json-server --watch codigo/db/DB2.json --port 4000",
 
     "prestart": "npm install",
-    "start": "npx concurrently \"npx live-server codigo --open=/public/pages/00_Sobre.html\" \"npm run server1\" \"npm run server2\""
+    "start": "npx concurrently \"npx live-server codigo --open=/public/pages/02_Inicio_logo.html\" \"npm run server1\" \"npm run server2\""
   },
   "keywords": [],
   "author": "Rommel Vieira Carneiro",
